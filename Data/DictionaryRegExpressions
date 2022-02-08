@@ -1,0 +1,159 @@
+\b0[xX][0-9a-fA-F]+\b
+\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b
+\b[+-]?([0-9]+\.?[0-9]*)\b
+\b[0-9]+\b
+(?i)(\brdb *$ *database|master *. *sys. *databases\b)
+(?i)(\b(SYS.USER$|information_schema *. *system_users|information_schema *. *tables|information_schema *. *character_sets|sysibm *. *systables|dual|rdb *$ *fields|rdb *$ *types|rdb *$ *collations|rdb *$ *functions|sysusers|mysql *. *db)\b)
+(?i)(\b(xtype|granted *_ *role)\b)
+(?i)(\b(SYS *. *ALL *_ *TABLES|SYS *. *ALL *_ *USERS|all_users|V$VERSION|ALL_TAB_COLUMNS|sysobjects|syscolumns|dba_role_privs)\b)
+(?i)(\b(SYS *. *LOGIN_USER|SYS *. *LOGINUSER$|Version|sp_addlogin|sp_addsrvrolemember)\b)|@@VERSION
+(?i)(\b(domain *. *domains|domain *. *columns|domain *. *tables)\b)
+(?i)\bSELECT\b
+(?i)\bDISTINCT\b
+(?i)\bDECLARE\b
+(?i)\bAND\b
+(?i)\bOR\b
+(?i)\bORDER BY\b
+(?i)\bGROUP BY\b
+(?i)\bIDENTIFIED BY\b
+(?i)\bINSERT\b
+(?i)\bINTO\b
+(?i)\bUPDATE\b
+(?i)\bDELETE\b
+(?i)\bSELECT TOP\b
+(?i)\bPERCENT\b
+(?i)\bLIMIT\b
+(?i)\bROWNUM\b
+(?i)\bROW\b
+(?i)\bLIKE\b
+(?i)\bRLIKE|REGEXP *_ *LIKE\b
+(?i)\bIN\b
+(?i)\bBETWEEN\b
+(?i)\bAS\b
+(?i)\bSET\b
+(?i)\bINNER\b
+(?i)\bOUTER\b
+(?i)\bFULL\b
+(?i)\bUNION\b
+(?i)\bALL\b
+(?i)\bON\b
+(?i)\bDUPLICATE KEY\b
+(?i)\bFROM\b
+(?i)\bWHERE\b
+(?i)\bCREATE\b
+(?i)\bDATABASE\b
+(?i)\bCASE\b
+(?i)\bWHEN\b
+(?i)\bTHEN\b
+(?i)\bELSE\b
+(?i)\bEND\b
+(?i)\bNOT\b
+(?i)\bONLY\b
+(?i)\bFETCH\b
+(?i)\bIF\b
+(?i)\bEXISTS\b
+(?i)\bIS\b
+(?i)\bNULL\b
+(?i)\bNULLIF\b
+(?i)(\b(ISNULL|NVL|IFNULL|COALESCE)\b)
+(?i)\bUNIQUE\b
+(?i)\bMODIFY\b
+(?i)\bPRIMARY KEY\b
+(?i)\bFOREIGN KEY\b
+(?i)\bDEFAULT\b
+(?i)\bDROP\b
+(?i)\bDROP FUNCTION +[a-zA-Z]+\b
+(?i)\bALTER\b
+(?i)\bAUTO_INCREMENT\b
+(?i)\bINDEX\b
+(?i)\bVIEW\b
+(?i)(\bGRANTEE\b)
+(?i)(\bHAVING\b)
+(?i)(\b(ADDDATE|ADDTIME|CURRENT_DATE|NOW|CURDATE|CURTIME|CURRENT_TIME|CURRENT_TIMESTAMP|TIMESTAMP|DATEDIFF|DATE|NOW|EXTRACT|DATE_ADD|DATE_SUB|DATEDIFF|DATE_FORMAT|DATEFORMAT|FORMAT|GETDATE|DATEPART|DATEADD|DATEDIFF|INTERVAL|DAY|MINUTE|HOUR|DAYNAME|DAYOFMONTH|DAYOFWEEK|DAYOFYEAR)\b)
+(?i)(\b(CHAR|CHARACTER|VARCHAR|nvarchar|BINARY|BOOLEAN|VARBINARY|INTEGER|SMALLINT|BIGINT|FLOAT|REAL|TEXT|ntext|NUMERIC|xmltype|HEX|chr|Longtext)\b)
+(?i)(\b(AVG|COUNT|FIRST|LAST|MAX|MIN|SUM|FLOOR)\b)
+(?i)(\b(UPPER)\b)
+(?i)(\b(LOWER)\b)
+(?i)(\b(UCASE|LCASE)\b)
+(?i)(\b(ASC)\b)
+(?i)(\b(ABS|ACOS|ASIN|ATAN|ATAN2|COS|COT|CEILING|CEIL|DEGREES|LOG10|LOG2|LN|ROUND|MOD|DIV|POWER|SIGN|SQRT|SUM|TAN|PI|GREATEST|LEAST)\b)
+(?i)(\bRAND\b)
+(?i)(\b(CAST|CONVERT)\b)
+(?i)(\b(CHAR_LENGTH|CHARACTER_LENGTH)\b)
+(?i)(\b(LPAD|RPAD|LTRIM|RTRIM)\b)
+(?i)(\b(REPEAT)\b)
+(?i)(\b(RIGHT)\b)
+(?i)(\b(LEFT)\b)
+(?i)(\b(JOIN)\b)
+(?i)(\bexec\b)
+(?i)(\bcall\b)
+(?i)(\bconcat|concat_ws\b)
+(?i)(\bexp\b)
+(?i)(\belt\b)
+(?i)(\b(substring|substr|regexp *_ *substring|regexp *_ *substr|substring *_ *index)\b)
+(?i)(\bSTRCMP\b)
+(?i)(\bREPLACE\b)
+(?i)(\bSPACE\b)
+(?i)(\bREVERSE\b)
+(?i)(\bPOSITION\b)
+(?i)(\b(INSTR|MID)\b)
+(?i)(\bvalues\b)
+(?i)(\bmode\b)
+(?i)(\bTRUNCATE\b)
+(?i)(\bFIELD\b)
+(?i)(\bFIND_IN_SET\b)
+(?i)(\b(SLEEP|PG_SLEEP|dbms_lock *. *sleep)\b)
+(?i)(\b(WAITFOR DELAY)\b)
+(?i)(\b(FILE_LOAD)\b)
+(?i)(\b(utl_inaddr *. *get_host_address)\b)
+(?i)(\bbenchmark\b)
+(?i)(\bextractvalue\b)
+(?i)(\brandomblob\b)
+(?i)(\bdbms_pipe *. *receive_message\b)
+(?i)(\bmake_set\b)
+(?i)(\bgenerate_series\b)
+(?i)(\bcrypt_key\b)
+(?i)(\bcupdatexml\b)
+(?i)(\bmd5\b)
+(?i)(\bprocedure analyse\b)
+(?i)(\bdbms_utility *. *sqlid_to_sqlhash\b)
+(?i)(\bctxsys *. *drithsx *. *sn\b)
+(?i)(\badmin\b)
+(?i)(\b_ *_ *TIME *_ *_\b)
+(?i)(--)
+!=|<>
+\&\&
+\|\|
+\/\*
+\*\/
+\~
+\!
+\@
+\#
+\$
+\%
+\^
+\&
+\*
+\-
+\+
+\=
+\(
+\)
+\{
+\}
+\[
+\]
+\\
+\:
+\;
+\"
+\'
+\<
+\>
+\,
+\.
+\?
+\/
+\b[a-z]\b
+[a-z_$0-9]{2,}
