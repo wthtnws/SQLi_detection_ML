@@ -1,1 +1,64 @@
-SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ( 'wp_theme' ) AND t.name IN ( 'houzez-child' )
+ELECT * FROM clay WHERE usual IN ( SELECT circle FROM various )
+SELECT * FROM younger WHERE cabin BETWEEN 10 AND 20
+SELECT * FROM understanding WHERE Price NOT BETWEEN 10 AND 20
+SELECT * FROM bear WHERE magic BETWEEN 'fort' AND 'typical'
+SELECT * FROM tonight WHERE came BETWEEN "zoo" AND "symbol"
+SELECT * FROM yes WHERE strength NOT BETWEEN 'country' AND 'tie'
+SELECT * FROM jump WHERE garden BETWEEN third09/01/1996boat AND east15/31/1996plan
+SELECT * FROM door WHERE one BETWEEN '1996-07-01' AND '1996-07-31'
+SELECT AVG ( pen ) FROM sand SELECT SUM ( maybe )
+SELECT COUNT ( dance ) FROM slowly
+SELECT COUNT ( bareID ) FROM riding
+SELECT AVG ( Price ) FROM egg
+SELECT * FROM limited WHERE oil BETWEEN '1996-07-01' AND '1996-07-31'
+SELECT underlineID AS ID, actual AS start FROM sat
+SELECT todayID AS ID, world AS scale FROM favorite
+SELECT solid AS what, floor AS [practice] FROM title
+SELECT late, dozen+ ', ' + rapidly+ ' ' + thumb+ ', ' + radio AS teeth FROM develop
+SELECT thumb ( s ) FROM element INNER JOIN
+SELECT shot,bigger,needed,population,beyond ( ( forth JOIN discuss ON thrown.number = trouble.produce ) INNER JOIN indicate ON ORDERs.arrive = neck.unusualID )
+SELECT announced ( s ) FROM visit LEFT JOIN
+SELECT trunk,bare,speak FROM mirror LEFT JOIN ORDERs ON leader.streamID = species.hearing ORDER BY feel.anything
+SELECT affect ( s FROM cover RIGHT JOIN
+SELECT ORDERs.tearsrID, Employees.bus, Employees.skin FROM ORDERs RIGHT JOIN Employees ON ORDERs.EmployeeID = Employees.promisedID ORDER BY ORDERs.lookID
+SELECT widely ( s ) FROM lonely FULL OUTER JOIN
+SELECT column_name ( s ) FROM mighty,amount
+SELECT bright ( s ) FROM nation UNION
+SELECT desert ( s ) FROM molecular SELECT hour ( s )
+SELECT tired ( s ) FROM barn UNION ALL
+SELECT relationship ( s ) FROM production SELECT almost FROM wall
+SELECT necessary FROM layers UNION SELECT most FROM on ORDER BY power
+SELECT heard FROM single UNION ALL SELECT vapor FROM tail ORDER BY solution
+SELECT about,bigger FROM began WHERE vote = 'wire' UNION SELECT captain, essential FROM growth
+SELECT COUNT ( ran ) , monkey FROM operation BY cast
+SELECT Employees.aside, COUNT ( ORDERs.governmentID ) AS thick FROM ( ORDERs INNER JOIN cheese ON ORDERs.steadyID = Employees.happenedID )
+SELECT * FROM television FETCH FIRST 50 PERCENT ROWS ONLY
+SELECT hang
+SELECT * FROM telephone
+SELECT basket FROM eight
+SELECT DISTINCT discover FROM author
+SELECT COUNT ( DISTINCT kept ) FROM canal
+SELECT Count ( * ) AS foreign
+FROM ( SELECT DISTINCT sum FROM science )
+SELECT * FROM plant
+SELECT * FROM largest WHERE rhythm = 'breathe'
+SELECT * FROM anyone WHERE tired = 'fairly'
+SELECT * FROM function WHERE object = end
+SELECT * FROM sort WHERE riding = 'discover' AND City = 'life'
+SELECT * FROM room WHERE tide = 'mighty' OR plenty = 'of'
+SELECT * FROM label WHERE fox = 'else' OR five = 'pleasure'
+SELECT * FROM society WHERE NOT entire = 'mouth'
+SELECT * FROM discussion WHERE brass = 'stage' AND ( plural = 'men' OR gray = 'purple' )
+SELECT * FROM eat WHERE NOT hope = 'sugar' AND NOT bone = 'grass'
+SELECT * FROM produce ORDER BY jet
+SELECT * FROM lunch ORDER BY policeman DESC
+SELECT * FROM have ORDER BY careful, send
+SELECT * FROM though ORDER BY good ASC, lips DESC
+INSERT INTO amount ( b ORDER, slide, north, egg, draw, stock ) VALUES ( 'atomic', 'heart'. language', 'baseball', 'weak', 'harbor', 'support' )
+INSERT INTO loose ( exercise, struck, chosen ) VALUES ( 'yet', 'importance', 'tomorrow' )
+SELECT busy, invented, chief FROM view WHERE tool IS NULL
+SELECT supper, finger, entire FROM slope WHERE here IS NOT NULL
+UPDATE dried SET swim = 'north', City = 'huge' WHERE flight = saved
+UPDATE brick SET may = 'taste' WHERE score = 'key'
+SELECT * FROM nice
+DELETE FROM cloud WHERE happy = 'wash'

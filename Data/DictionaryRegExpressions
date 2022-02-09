@@ -62,7 +62,7 @@
 (?i)\bFOREIGN KEY\b
 (?i)\bDEFAULT\b
 (?i)\bDROP\b
-(?i)\bDROP FUNCTION +[a-zA-Z]+\b
+(?i)\bFUNCTION +[a-z]+\b
 (?i)\bALTER\b
 (?i)\bAUTO_INCREMENT\b
 (?i)\bINDEX\b
@@ -75,10 +75,10 @@
 (?i)(\b(UPPER)\b)
 (?i)(\b(LOWER)\b)
 (?i)(\b(UCASE|LCASE)\b)
-(?i)(\b(ASC)\b)
+(?i)(\b(ASC|DESC)\b)
 (?i)(\b(ABS|ACOS|ASIN|ATAN|ATAN2|COS|COT|CEILING|CEIL|DEGREES|LOG10|LOG2|LN|ROUND|MOD|DIV|POWER|SIGN|SQRT|SUM|TAN|PI|GREATEST|LEAST)\b)
 (?i)(\bRAND\b)
-(?i)(\b(CAST|CONVERT)\b)
+(?i)(\b(CAST|CONVERT|ASCII)\b)
 (?i)(\b(CHAR_LENGTH|CHARACTER_LENGTH)\b)
 (?i)(\b(LPAD|RPAD|LTRIM|RTRIM)\b)
 (?i)(\b(REPEAT)\b)
@@ -87,7 +87,7 @@
 (?i)(\b(JOIN)\b)
 (?i)(\bexec\b)
 (?i)(\bcall\b)
-(?i)(\bconcat|concat_ws\b)
+(?i)(\b(concat|concat_ws)\b)
 (?i)(\bexp\b)
 (?i)(\belt\b)
 (?i)(\b(substring|substr|regexp *_ *substring|regexp *_ *substr|substring *_ *index)\b)
@@ -104,7 +104,7 @@
 (?i)(\bFIND_IN_SET\b)
 (?i)(\b(SLEEP|PG_SLEEP|dbms_lock *. *sleep)\b)
 (?i)(\b(WAITFOR DELAY)\b)
-(?i)(\b(FILE_LOAD)\b)
+(?i)(\b(FILE_LOAD|load_file)\b)
 (?i)(\b(utl_inaddr *. *get_host_address)\b)
 (?i)(\bbenchmark\b)
 (?i)(\bextractvalue\b)
@@ -134,6 +134,7 @@
 \%
 \^
 \&
+\|
 \*
 \-
 \+
@@ -155,5 +156,5 @@
 \.
 \?
 \/
-\b[a-z]\b
+\b[a-z_]\b
 [a-z_$0-9]{2,}

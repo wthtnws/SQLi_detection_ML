@@ -15,8 +15,6 @@ SELECT option_value FROM wp_options WHERE option_name = 'webp-express-alter-html
 SELECT option_value FROM wp_options WHERE option_name = 'siteground_optimizer_combine_css' LIMIT 1
 SELECT option_value FROM wp_options WHERE option_name = 'sm_organize_media' LIMIT 1
 SELECT option_value FROM wp_options WHERE option_name = 'zcf_crmformswpbuilder_settings' LIMIT 1
-CREATE TABLE IF NOT EXISTS `zcf_submitlogs` ( `id` int ( 6 ) unsigned NOT NULL AUTO_INCREMENT, `crmsubmitlogStatus` varchar ( 20 ) DEFAULT NULL, `crmsubmitlogDescribtion` longtext NOT NULL, `crmsubmitFormType` varchar ( 30 ) NOT NULL, PRIMARY KEY ( id ) ) ENGINE = InnoDB DEFAULT CHARSET = utf8
-ALTER table zcf_zohocrmform_field_manager MODIFY module_type varchar ( 255 ) ,MODIFY base_model varchar ( 255 ) ,MODIFY field_label varchar ( 255 ) ,MODIFY field_name varchar ( 255 )
 SELECT option_value FROM wp_options WHERE option_name = 'zcf_crm_oldversion_shortcodes' LIMIT 1
 SELECT option_value FROM wp_options WHERE option_name = 'amp-options' LIMIT 1
 SELECT option_value FROM wp_options WHERE option_name = 'classic-editor-allow-users' LIMIT 1
@@ -419,7 +417,6 @@ SELECT column_names FROM table_name WHERE column_name IS NULL;
 SELECT column_names FROM table_name WHERE column_name IS NOT NULL;
 SELECT CustomerName, ContactName, Address FROM Customers WHERE Address IS NULL;
 SELECT CustomerName, ContactName, Address FROM Customers WHERE Address IS NOT NULL;
-SELECT TOP number | percent column_name FROM table_name WHERE condition ;
 SELECT column_name FROM table_name WHERE condition LIMIT number ;
 SELECT column_name FROM table_name ORDER BY column_name FETCH FIRST number ROWS ONLY;
 SELECT column_name FROM table_name WHERE ROWNUM < = number ;
@@ -480,7 +477,7 @@ SELECT column_name FROM table_name AS alias_name;
 SELECT CustomerID AS ID, CustomerName AS Customer FROM Customers;
 SELECT CustomerName AS Customer, ContactName AS [Contact Person] FROM Customers;
 SELECT CustomerName, Address + ', ' + PostalCode + ' ' + City + ', ' + Country AS Address FROM Customers;
-SELECT CustomerName, C ONCAT ( Address,', ',PostalCode,', ',City,', ',Country ) AS Address FROM Customers;
+SELECT CustomerName, CONCAT ( Address,', ',PostalCode,', ',City,', ',Country ) AS Address FROM Customers;
 SELECT o. ORDERID, o. ORDERDate, c.CustomerName FROM Customers AS c, ORDERs AS o WHERE c.CustomerName = 'Around the Horn' AND c.CustomerID = o.CustomerID;
 SELECT ORDERs.ORDERID, ORDERs.ORDERDate, Customers.CustomerName FROM Customers, ORDERs WHERE Customers.CustomerName = 'Around the Horn' AND Customers.CustomerID = ORDERs.CustomerID;
 SELECT ORDERs.ORDERID, Customers.CustomerName, ORDERs.ORDERDate FROM ORDERs INNER JOIN Customers ON ORDERs.CustomerID = Customers.CustomerID;
@@ -596,10 +593,10 @@ SELECT CHAR_LENGTH ( "SQL Tutorial" ) AS LengthOfString;
 SELECT CHAR_LENGTH ( CustomerName ) AS LengthOfName FROM Customers;
 SELECT CHARACTER_LENGTH ( "SQL Tutorial" ) AS LengthOfString;
 SELECT CHARACTER_LENGTH ( CustomerName ) AS LengthOfName FROM Customers;
-SELECT C ONCAT ( "SQL ", "Tutorial ", "is ", "fun!" ) AS ConcatenatedString;
-SELECT C ONCAT ( Address, " ", PostalCode, " ", City ) AS Address FROM Customers;
-SELECT C ONCAT_WS ( "-", "SQL", "Tutorial", "is", "fun!" ) AS ConcatenatedString;
-SELECT C ONCAT_WS ( " ", Address, PostalCode, City ) AS Address FROM Customers;
+SELECT CONCAT ( "SQL ", "Tutorial ", "is ", "fun!" ) AS ConcatenatedString;
+SELECT CONCAT ( Address, " ", PostalCode, " ", City ) AS Address FROM Customers;
+SELECT CONCAT_WS ( "-", "SQL", "Tutorial", "is", "fun!" ) AS ConcatenatedString;
+SELECT CONCAT_WS ( " ", Address, PostalCode, City ) AS Address FROM Customers;
 SELECT FIELD ( "q", "s", "q", "l" ) ;
 SELECT FIELD ( "c", "a", "b" ) ;
 SELECT FIELD ( "Q", "s", "q", "l" ) ;
@@ -851,7 +848,7 @@ SELECT * FROM ORDERs WHERE ORDERDate BETWEEN '1996-07-01' AND '1996-07-31';
 SELECT CustomerID AS ID, CustomerName AS Customer FROM Customers;
 SELECT CustomerName AS Customer, ContactName AS [Contact Person] FROM Customers;
 SELECT CustomerName, Address + ', ' + PostalCode + ' ' + City + ', ' + Country AS Address FROM Customers;
-SELECT CustomerName, C ONCAT ( Address,', ',PostalCode,', ',City,', ',Country ) AS Address FROM Customers;
+SELECT CustomerName, CONCAT ( Address,', ',PostalCode,', ',City,', ',Country ) AS Address FROM Customers;
 SELECT ORDERs.ORDERID, Customers.CustomerName, ORDERs.ORDERDate FROM ORDERs INNER JOIN Customers ON ORDERs.CustomerID = Customers.CustomerID;
 SELECT column_name ( s ) FROM table1 INNER JOIN
 SELECT ORDERs.ORDERID, Customers.CustomerName FROM ORDERs INNER JOIN Customers ON ORDERs.CustomerID = Customers.CustomerID; SELECT ORDERs.ORDERID, Customers.CustomerName, Shippers.ShipperName
@@ -4358,7 +4355,6 @@ SELECT * FROM zulu ORDER BY height ASC, remove DESC
 INSERT INTO desk ( hidden, atomic, lift, subject, noon, second ) VALUES ( 'fed', 'badly'. sure', 'word', 'alive', 'first', 'yesterday' )
 INSERT INTO what ( who, score, separate ) VALUES ( 'duty', 'dirty', 'turn' )
 SELECT sides, sort, rose FROM came WHERE eye IS NULL
-SELECT top, cause, happily FROM chicken WHERE ordinary IS NOT NULL
 UPDATE tribe SET support = 'wire', City = 'flat' WHERE duty = him
 UPDATE gently SET widely = 'president' WHERE manufacturing = 'grew'
 SELECT * FROM chest
