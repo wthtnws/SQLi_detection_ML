@@ -1,11 +1,14 @@
 import re
 import csv
+import networkx as nx
+import matplotlib
 from array import *
 import numpy as np
 
 FILE_TOKENS = []
 FILE_REGEX = []
 SORT_TOKENS = []
+MAIN_PATH = "C:\\"
 
 
 def clean_query(target_string):
@@ -64,11 +67,16 @@ def clean_query(target_string):
 
 
 def build_adj_matrix(s):
+
+
     tok_list = s.split(" ")
     N = len(tok_list)
     unique_tok_list = list(set(tok_list))
     unique_tok_list.sort()
     n = len(unique_tok_list)
+
+    G = nx.Graph()
+    G.add_nodes_from(unique_tok_list)
 
     adj_matrix = [0] * n
     windw_size = 5
@@ -83,9 +91,16 @@ def build_adj_matrix(s):
         ii = unique_tok_list.index(tok_list[i])
         for j in range(i + 1, p):
             jj = unique_tok_list.index(tok_list[j])
-            adj_matrix[ii][jj] += i + windw_size - j
-            adj_matrix[jj][ii] = adj_matrix[ii][jj]
+            new_weight = adj_matrix[ii][jj] + i + windw_size - j
+            adj_matrix[ii][jj] = new_weight
+            adj_matrix[jj][ii] = new_weight
+            G.add_edge(tok_list[i], tok_list[j], weight=new_weight)
 
+    #print(adj_matrix)
+    #print("\n")
+    print(G.adj)
+    print(nx.degree_centrality(G))
+    #print(nx.eigenvector_centrality(G,100,1.0e-6,None,'weight'))
     return adj_matrix
 
 
@@ -107,6 +122,8 @@ def degree_centrality(adj_matrix, tok_str):
 
     return degree_list
 
+def closeness_centrality():
+    nx.closeness_centrality()
 
 def normalize_vector(data_vector: list):
     normal = ["0"] * len(data_vector)
@@ -201,21 +218,25 @@ def generate_csv(input_filename: str, csv_filename: str, label: str):
 
 
 if __name__ == '__main__':
-    file = open("D:\\Study\\LABS\\NIR\\SQLi_detection_ML\\Data\\DictionaryTokens", "r")
+    file = open(MAIN_PATH + "LABS\\NIR\\SQLi_detection_ML\\Data\\DictionaryTokens", "r")
     FILE_TOKENS = file.readlines()
     SORT_TOKENS = FILE_TOKENS.copy()
     SORT_TOKENS.sort()
     file.close()
-    file = open("D:\\Study\\LABS\\NIR\\SQLi_detection_ML\\Data\\DictionaryRegExpressions", "r")
+    file = open(MAIN_PATH + "LABS\\NIR\\SQLi_detection_ML\\Data\\DictionaryRegExpressions", "r")
     FILE_REGEX = file.readlines()
     file.close()
 
-    inj_file = "D:\\Study\\LABS\\NIR\\SQLi_detection_ML\\Data\\InjQueries.txt"
-    benign_file = "D:\\Study\\LABS\\NIR\\SQLi_detection_ML\\Data\\BenignQueries.txt"
-    tokenizeme = "D:\\Study\\LABS\\NIR\\SQLi_detection_ML\\Data\\TOKENIZEME"
-    csv_file = "D:\\Study\\LABS\\NIR\\SQLi_detection_ML\\Data\\Centrality_Measure_Dataset.csv"
+    inj_file = MAIN_PATH + "LABS\\NIR\\SQLi_detection_ML\\Data\\InjQueries.txt"
+    benign_file = MAIN_PATH + "LABS\\NIR\\SQLi_detection_ML\\Data\\BenignQueries.txt"
+    csv_file = MAIN_PATH + "LABS\\NIR\\SQLi_detection_ML\\Data\\Centrality_Measure_Dataset.csv"
 
-    generate_csv(inj_file, csv_file, "1")
-    generate_csv(benign_file, csv_file, "0")
+    tokenizeme = MAIN_PATH + "LABS\\NIR\\SQLi_detection_ML\\Data\\TOKENIZEME"
+    tokenizeme_out = MAIN_PATH + "LABS\\NIR\\SQLi_detection_ML\\Data\\TOKENIZEMEout.csv"
+
+
+    #generate_csv(inj_file, csv_file, "1")
+    #generate_csv(benign_file, csv_file, "0")
+    generate_csv(tokenizeme, tokenizeme_out, "0")
 
     # не забыть удалить повторяющиеся имена фичей, начинается с ADMIN...
