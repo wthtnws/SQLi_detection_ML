@@ -66,7 +66,7 @@ def clean_query(target_string):
     return res.strip()
 
 
-def build_adj_matrix(s):
+def build_graph(s):
 
 
     tok_list = s.split(" ")
@@ -98,13 +98,11 @@ def build_adj_matrix(s):
 
     #print(adj_matrix)
     #print("\n")
-    print(G.adj)
-    print(nx.degree_centrality(G))
-    #print(nx.eigenvector_centrality(G,100,1.0e-6,None,'weight'))
-    return adj_matrix
+
+    return G, adj_matrix
 
 
-def degree_centrality(adj_matrix, tok_str):
+def calculate_centralities(G, adj_matrix, tok_str):
     tok_list = tok_str.split(" ")
     N = len(tok_list)
     unique_tok_list = list(set(tok_list))
@@ -120,10 +118,24 @@ def degree_centrality(adj_matrix, tok_str):
     for i in range(n):
         print(unique_tok_list[i] + " deg = ", degree_list[i])
 
-    return degree_list
+    print(G.adj)
+    closeness = nx.closeness_centrality(G, distance='weight')
+    closeness_list = list(closeness.values())
+    print(closeness)
+    print(closeness_list)
 
-def closeness_centrality():
-    nx.closeness_centrality()
+    eigenvector = nx.eigenvector_centrality(G, 100, 1.0e-6, None, 'weight')
+    eigenvector_list = list(eigenvector.values())
+    print(eigenvector)
+    print(eigenvector_list)
+    # print(nx.katz_centrality(G = G,max_iter= 100, weight= 'weight',tol=1.0e-2, alpha=0.5))
+
+    degree_nx = nx.degree_centrality(G)
+    degree_list_nx = list(degree_nx.values())
+    print(degree_nx)
+    print(degree_list_nx)
+
+    return degree_list, degree_list_nx, closeness_list, eigenvector_list
 
 def normalize_vector(data_vector: list):
     normal = ["0"] * len(data_vector)
@@ -135,21 +147,8 @@ def normalize_vector(data_vector: list):
     return normal
 
 
-def generate_csv(input_filename: str, csv_filename: str, label: str):
-    with open(input_filename, encoding="UTF-8") as target_file, \
-            open(csv_filename, "a+", encoding="UTF-8") as csv_file:
-
-        for i in range(len(FILE_TOKENS)):
-            SORT_TOKENS[i] = SORT_TOKENS[i].strip("\n")
-            FILE_TOKENS[i] = FILE_TOKENS[i].strip("\n")
-            if i < len(FILE_REGEX):
-                FILE_REGEX[i] = FILE_REGEX[i].strip("\n")
-
-        file_writer = csv.writer(csv_file, delimiter=",", lineterminator="\r")
-
-        SORT_TOKENS.append("LABEL")
-        file_writer.writerow(SORT_TOKENS)
-        SORT_TOKENS.pop()
+def generate_csv(input_filename: str, output_filelist: list, label: str):
+    with open(input_filename, encoding="UTF-8") as target_file:
 
         for target in target_file:
             print("BEFORE------> " + target)
@@ -195,25 +194,49 @@ def generate_csv(input_filename: str, csv_filename: str, label: str):
             target = re.sub("\\b_STR_\\b", "STR", target)
             print("AFTER------> " + target + "\n\n")
 
-            adj_matrix = build_adj_matrix(target)
-            degree_list = degree_centrality(adj_matrix, target)
+            G, adj_matrix = build_graph(target)
+            degree_list, \
+            degree_list_nx, \
+            closeness_list, eigenvector_list = calculate_centralities(G, adj_matrix, target)
 
-            vector_data = [0] * len(SORT_TOKENS)
+            degree_vector = [0] * len(SORT_TOKENS)
+            degree_nx_vector = [0] * len(SORT_TOKENS)
+            closeness_vector = [0] * len(SORT_TOKENS)
+            eigenvector_vector = [0] * len(SORT_TOKENS)
+
             unique_tok_list = list(set(target.split(" ")))
             unique_tok_list.sort()
 
             for i in range(len(degree_list)):
                 vector_index = SORT_TOKENS.index(unique_tok_list[i])
-                vector_data[vector_index] = degree_list[i]
+                degree_vector[vector_index] = degree_list[i]
+                degree_nx_vector[vector_index] = degree_list_nx[i]
+                closeness_vector[vector_index] = closeness_list[i]
+                eigenvector_vector[vector_index] = eigenvector_list[i]
 
-            normalized = normalize_vector(vector_data).copy()
-            normalized.append(label)
-            file_writer.writerow(normalized)
+            normalized_degree = normalize_vector(degree_vector).copy()
+
+            normalized_degree.append(label)
+            degree_nx_vector.append(label)
+            closeness_vector.append(label)
+            eigenvector_vector.append(label)
+
+            vector_metrics_list = [normalized_degree,
+                            degree_nx_vector,
+                            closeness_vector,
+                            eigenvector_vector]
+
+            for i in range(0,4):
+
+                file = open(output_filelist[i], encoding="UTF-8", mode="a+")
+                file_writer = csv.writer(file, delimiter=",", lineterminator="\r")
+                file_writer.writerow(vector_metrics_list[i])
+                file.close()
 
             '''
             print("SAMPLE STRING------> \n")
             for i in range(len(SORT_TOKENS)):
-            print(SORT_TOKENS[i] +" = ",vector_data[i])
+            print(SORT_TOKENS[i] +" = ",degree_vector[i])
             '''
 
 
@@ -232,11 +255,36 @@ if __name__ == '__main__':
     csv_file = MAIN_PATH + "LABS\\NIR\\SQLi_detection_ML\\Data\\Centrality_Measure_Dataset.csv"
 
     tokenizeme = MAIN_PATH + "LABS\\NIR\\SQLi_detection_ML\\Data\\TOKENIZEME"
-    tokenizeme_out = MAIN_PATH + "LABS\\NIR\\SQLi_detection_ML\\Data\\TOKENIZEMEout.csv"
+    tokenizeme_out_degree = MAIN_PATH + "LABS\\NIR\\SQLi_detection_ML\\Data\\DEGREE_CENTR.csv"
+    tokenizeme_out_degree_nx = MAIN_PATH + "LABS\\NIR\\SQLi_detection_ML\\Data\\DEGREE_NX_CENTR.csv"
+    tokenizeme_out_closeness = MAIN_PATH + "LABS\\NIR\\SQLi_detection_ML\\Data\\CLOSENESS_CENTR.csv"
+    tokenizeme_out_eigenvector = MAIN_PATH + "LABS\\NIR\\SQLi_detection_ML\\Data\\EIGENVECTOR_CENTR.csv"
 
+    output_filelist = [tokenizeme_out_degree,
+                           tokenizeme_out_degree_nx,
+                           tokenizeme_out_closeness,
+                           tokenizeme_out_eigenvector]
+
+    print(output_filelist)
+
+
+    for i in range(len(FILE_TOKENS)):
+        SORT_TOKENS[i] = SORT_TOKENS[i].strip("\n")
+        FILE_TOKENS[i] = FILE_TOKENS[i].strip("\n")
+        if i < len(FILE_REGEX):
+            FILE_REGEX[i] = FILE_REGEX[i].strip("\n")
+
+    for file_path in output_filelist:
+        file = open(file_path, encoding="UTF-8", mode="w")
+        file_writer = csv.writer(file, delimiter=",", lineterminator="\r")
+
+        SORT_TOKENS.append("LABEL")
+        file_writer.writerow(SORT_TOKENS)
+        SORT_TOKENS.pop()
+        file.close()
 
     #generate_csv(inj_file, csv_file, "1")
     #generate_csv(benign_file, csv_file, "0")
-    generate_csv(tokenizeme, tokenizeme_out, "0")
+    generate_csv(tokenizeme, output_filelist, "0")
 
     # не забыть удалить повторяющиеся имена фичей, начинается с ADMIN...
