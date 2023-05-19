@@ -1,0 +1,6 @@
+pandas==2.0.1
+numpy==1.23.1
+stellargraph==1.2.1
+sklearn
+tensorflow==2.12.0
+keras==2.12.0
